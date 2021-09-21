@@ -189,6 +189,16 @@ Todos os requisitos tem como base a página a seguir, que representa um formulá
 
 ## Observações técnicas
 
+* Lembrem-se que como pessoas desenvolvedoras devemos fazer pesquisas e garimpar resultados para auxiliar no entendimento do assunto. Assim, para solucionar os requisitos do projeto é inevitável e estimulado que pesquisas sejam feitas nas mais variadas fontes (course, vídeos do course, google, youtube, etc) sempre tomando cuidado para utilizar fontes "confiáveis" nas pesquisas da Internet, como por exemplo:
+
+  * [Javascript.com](http://javascript.com/)
+
+  * [W3Schools](https://www.w3schools.com/js/default.asp)
+
+  * [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+  * [StackOverflow](https://pt.stackoverflow.com/questions/tagged/javascript)
+
 Alguns requisitos devem seguir um padrão pré-estabelecido para que os testes automáticos funcionem corretamente, leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**.
 
 ⚠️ **Alguns requisitos pedem para utilizar Flexbox. Tenha atenção no que é solicitado caso vá usar algum framework CSS para que os requisitos sejam atendidos.**
