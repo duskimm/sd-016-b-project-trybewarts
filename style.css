@@ -36,3 +36,20 @@
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.personal-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.personal-info-input {
+  flex-basis: 35%;
+}
+
+.personal-info-input input {
+  width: 100%;
+}
+
+.house-input-container {
+  display: flex;
+}
