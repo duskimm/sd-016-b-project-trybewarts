@@ -7,17 +7,18 @@
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
+  height: 80px;
 }
 
 .trybewarts-login {
   display: flex;
 }
 
-#main-content, #evaluation-form{
+#main-content , #evaluation-form {
   display: flex;
 }
 
-#evaluation-form{
+#evaluation-form {
   width: 675px;
   flex-direction: column;
 }
