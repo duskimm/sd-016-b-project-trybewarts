@@ -4,6 +4,7 @@ const passwordIpt = document.getElementById('password');
 const formDiv4 = document.querySelector('.form-div-4');
 const sendBtn = document.querySelector('#submit-btn');
 const agreementCheck = document.querySelector('#agreement');
+const textarea = document.getElementById('textarea');
 
 function changeEventSubmit() {
   if (emailIpt.value === 'tryber@teste.com' && passwordIpt.value === '123456') {
@@ -37,3 +38,10 @@ function checkMarked() {
 }
 
 agreementCheck.addEventListener('click', checkMarked);
+
+function countWords() {
+  const textCounter = document.querySelector('#counter');
+  const count = 500 - textarea.value.length;
+  textCounter.innerText = count;
+}
+textarea.addEventListener('input', countWords);
