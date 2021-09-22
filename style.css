@@ -14,8 +14,16 @@
   background-color: rgb(50, 167, 145);
 }
 
-/* Formulário */
 .trybewarts-login {
   display: flex;
 }
 
+/* Main */
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
