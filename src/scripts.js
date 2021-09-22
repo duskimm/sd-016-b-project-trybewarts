@@ -1,5 +1,3 @@
-
-
 const btnEntrar = document.querySelector('button');
 btnEntrar.addEventListener('click', () => {
   const email = document.querySelector('.emailVal').value;
