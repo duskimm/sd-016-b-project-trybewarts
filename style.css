@@ -91,15 +91,13 @@ main , #evaluation-form {
 }
 
 #checkbox-id {
-  display: flex;  
+  display: flex;
 }
 
 #footer {
-  background-color: #3C404A;
-  color: #D6EAF7;
+  background-color: #3c404a;
+  color: #d6eaf7;
   text-align: center;
   height: 20px;
-  /* display: flex;
-  align-items: center; */
   margin-top: auto;
 }

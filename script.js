@@ -26,5 +26,5 @@ function checkEnable() {
   } else {
     botaoEnviar.disabled = true;
   }
-} 
+}
 checkbox.addEventListener('click', checkEnable);
