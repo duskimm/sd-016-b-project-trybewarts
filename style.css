@@ -27,11 +27,8 @@ main {
   height: 500px;
 }
 
-.name-container{
+.name-container {
   display: flex;
   flex-direction: row;
 }
-
-
-
 
