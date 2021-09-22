@@ -21,3 +21,14 @@
   width: 675px;
   flex-direction: column;
 }
+
+.aside-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#trybewarts-forms-logo {
+  display: flex;
+  height: 500px;
+  align-self: flex-end;
+}
