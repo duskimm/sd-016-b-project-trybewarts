@@ -55,3 +55,8 @@ main , #evaluation-form {
 .selectHouse-container select {
   flex-grow: 1;
 }
+
+.family-container {
+  display: flex;
+  flex-direction: column;
+}
