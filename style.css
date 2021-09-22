@@ -29,17 +29,13 @@
   font-size: 30px;
 }
 
-main , #evaluation-form {
+main , #evaluation-form , #complete-name , #data {
   display: flex;
 }
 
 #evaluation-form {
   width: 675px;
   flex-direction: column;
-}
-
-#complete-name {
-  display: flex;
 }
 
 #trybewarts-forms-logo {
