@@ -5,7 +5,6 @@
 
 .header {
   top: 0;
-  border: 1px solid black;
   display: flex;
   background-color: rgb(50, 167, 145);
   flex-grow: 1;
@@ -49,15 +48,20 @@ main {
 }
 
 #evaluation-form {
-  border: 1px solid black;
   display: flex;
   width: 675px;
   flex-direction: column;
   align-items: center;
 }
 
+#logo-container {
+  display: flex;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
+  margin-top: 100px;
+  margin-left: 35px;
 }
 
 #input-form-1 {
@@ -128,8 +132,65 @@ h2 {
 
 #input-form-4 {
   margin-top: 10px;
+  margin-right: 20px;
 }
 
 #input-form-4-1 {
   margin-top: 10px;
+  margin-right: 80px;
+}
+
+#input-form-4 label {
+  margin-right: 24px;
+}
+
+#input-form-4-1 label {
+  margin-right: 20px;
+}
+
+#level-buttons {
+  margin-top: 25px;
+  align-self: flex-start;
+  margin-left: 29px;
+}
+
+#level-buttons label {
+  margin-right: 10px;
+}
+
+#text-area-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 29px;
+  margin-top: 20px;
+}
+
+#text-area-container textarea {
+  max-height: 200px;
+  max-width: 615px;
+  min-height: 200px;
+  min-width: 615px;
+}
+
+#agreement-container {
+  align-self: flex-start;
+  margin-left: 29px;
+  margin-top: 10px;
+}
+
+#submit-btn {
+  margin-top: 15px;
+  border-radius: 5px;
+  border: purple;
+  width: 620px;
+  height: 30px;
+  background-color: rgb(99, 2, 99);
+}
+
+footer {
+  text-align: center;
+  background-color: gray;
+  height: 25px;
+  margin-top: 20px;
 }
