@@ -45,6 +45,7 @@
 
 main {
   display: flex;
+  justify-content: space-evenly;
 }
 
 #evaluation-form {
@@ -66,4 +67,9 @@ padding: 20px;
 
 hr {
   margin-top: 30px;
+}
+
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
