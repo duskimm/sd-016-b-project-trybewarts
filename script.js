@@ -1,8 +1,7 @@
 const inputEmail = document.getElementById('email-input');
-
 const inputPassword = document.getElementById('password-input');
-
-const btnSubmit = document.getElementById('btn-submit');
+const btnSubmitLogin = document.getElementById('btn-submit-login');
+const checkAgreement = document.getElementById('agreement');
 
 function verifyData(event) {
   event.preventDefault();
@@ -17,14 +16,15 @@ function verifyData(event) {
   }
 }
 
-btnSubmit.addEventListener('click', verifyData);
-
-
-function populateRateContainer() {
-  const container = document.getElementById('rate-container');
-
-  for (let i = 1; i <= 10; i += 1) {
-    const labelContainer = document.createElement('label');
-    labelContainer.setAttribute('for' , i)
+function ableBtn() {
+  const btnSubmit = document.getElementById('submit-btn');
+  if (checkAgreement.checked === true) {
+    btnSubmit.removeAttribute('disabled');
+  } else {
+    btnSubmit.setAttribute('disabled', 'disabled');
   }
 }
+
+checkAgreement.addEventListener('click', ableBtn);
+btnSubmitLogin.addEventListener('click', verifyData);
+
