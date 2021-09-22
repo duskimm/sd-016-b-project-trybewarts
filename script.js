@@ -27,17 +27,14 @@ function ableBtn() {
 }
 
 function charCounter() {
-  const counter = document.getElementById('counter')
-  counter.innerHTML = 499 - textArea.value.length 
-  if(textArea.value.length === 0) {
-    counter.innerHTML = 500
+  const counter = document.getElementById('counter');
+  if (textArea.value.length === 0) {
+    counter.innerHTML = 500;
   } else {
-    counter.innerHTML = 500 - textArea.value.length
+    counter.innerHTML = 500 - textArea.value.length;
   }
 }
 
 checkAgreement.addEventListener('click', ableBtn);
 btnSubmitLogin.addEventListener('click', verifyData);
-textArea.addEventListener('keyup', charCounter)
-
-
+textArea.addEventListener('keyup', charCounter);
