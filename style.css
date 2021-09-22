@@ -44,3 +44,12 @@ body {
 .avaliacao {
   display: flex;
 }
+
+.parte-2 {
+  display: flex;
+}
+
+.parte-3 {
+  display: flex;
+  flex-direction: column;
+}
