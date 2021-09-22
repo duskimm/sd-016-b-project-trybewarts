@@ -53,3 +53,7 @@ main , #evaluation-form {
   display: flex;
   flex-direction: column;
 }
+
+.rate-container {
+  display: flex;
+}

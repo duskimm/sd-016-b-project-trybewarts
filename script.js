@@ -13,3 +13,26 @@ function login(event) {
 const loginButton = document.querySelector('button');
 
 loginButton.addEventListener('click', login);
+
+const rateContainer = document.querySelector('.rate-container');
+
+function createRate() {
+  for (let i = 1; i <= 10; i += 1) {
+    const newDiv = document.createElement('div');
+    const newSpan = document.createElement('span');
+    const newRadio = document.createElement('input');
+
+    newRadio.setAttribute('type', 'radio');
+    newRadio.setAttribute('name', 'rate');
+    newRadio.setAttribute('value', i);
+    newSpan.innerText = i;
+
+    newDiv.appendChild(newRadio);
+    newDiv.appendChild(newSpan);
+    rateContainer.appendChild(newDiv);
+  }
+}
+
+window.onload = function () {
+  createRate();
+};
