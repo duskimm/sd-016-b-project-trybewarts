@@ -6,8 +6,16 @@
 
 .header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: rgb(50, 167, 145);
-  height: 10%;
+  color: aliceblue;
+  max-height: 5em;
+}
+
+.header img {
+  max-height: inherit;
+  padding: 0.25em;
 }
 
 .trybewarts-login {
