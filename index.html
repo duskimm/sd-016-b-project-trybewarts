@@ -8,51 +8,91 @@
   <link rel="stylesheet" href="./src/style/style.css">
   <title>Trybe Warts</title>
 </head>
+
 <body>
-<header class="header">
-  <div id="imgLogoTop">
-    <img src="./images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="trybewarts-logo">
-  </div>
+  <header class="header">
+    <div id="imgLogoTop">
+      <img src="./images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="trybewarts-logo">
+    </div>
 
     <h1 id="trybewarts-header-title" class="title">Trybewarts</h1>
-  
+
     <form action="" class="trybewarts-login">
       <input type="email" name="email" id="email" placeholder="Email">
       <input type="password" name="password" id="password" placeholder="Senha">
-      <button type="submit" id="btnEntrar" preventdefaut >Entrar</button>
+      <button type="submit" id="btnEntrar" preventdefaut>Entrar</button>
     </form>
-</header>
+  </header>
 
-<main>
-  <div id="formAvaliation">
-    <div id="mainTitle">
-      <h1>Formulario de Avaliação</h1>
+  <main>
+    <div id="formAvaliation">
+      <div id="mainTitle">
+        <h1>Formulario de Avaliação</h1>
+      </div>
+
+      <form action="" method="post" id="evaluation-form">
+        <div id="nomeSobrNoma">
+          <input type="text" name="name" id="input-name" placeholder="Nome">
+          <input type="text" name="name" id="input-lastname" placeholder="Sobrenome">
+        </div>
+        <div>
+          <input type="email" name="email" id="input-email" placeholder="Email">
+          <label for="house">Casa:
+            <select name="" id="house">
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+          </label>
+        </div>
+        <hr>
+        <div class="section2">
+          <div class="familias">
+            <h3 id="label-family">Qual sua Familía?</h3>
+            <label>
+              <input type="radio" name="family" value="Frontend">
+              Familia Frontend
+            </label>
+            <label>
+              <input type="radio" name="family" value="Backend">
+              Familia Backend
+            </label>
+            <label>
+              <input type="radio" name="family" value="FullStack">
+              Familia FullStack
+            </label>
+          </div>
+          <div class="tecnologias">
+            <h3 id="label-content">Qual conteúdo você está com mais vontade de aprender?</h3>
+            <label>
+              <input type="checkbox"> HoFs
+            </label>
+            <label>
+              <input type="checkbox"> Jest
+            </label>
+            <label>
+              <input type="checkbox"> Promises
+            </label>
+            <label>
+              <input type="checkbox"> React
+            </label>
+            <label>
+              <input type="checkbox"> SQL
+            </label>
+            <label>
+              <input type="checkbox"> Python
+            </label>
+          </div>
+        </div>
+
+      </form>
     </div>
-  
-  <form action="" method="post" id="evaluation-form">
-    <div id="nomeSobrNoma">
-       <input type="text" name="name" id="input-name" placeholder="Nome">
-       <input type="text" name="name" id="input-lastname" placeholder="Sobrenome">
-    </div>
-    <div>
-  <input type="email" name="email" id="input-email" placeholder="Email">
-  <label for="house">Casa:
-    <select name="" id="house">
-      <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-      <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-      <option value="Corvinode" id="corvinode-house">Corvinode</option>
-      <option value="Pytherina" id="pytherina-house">Pytherina</option>
-    </select>
-  </label>
-</div>
-</form>
-</div>
-<img src="./images/trybewarts-colored.svg" alt="trybewarts-forms-logo" id="trybewarts-forms-logo">
 
+    <img src="./images/trybewarts-colored.svg" alt="trybewarts-forms-logo" id="trybewarts-forms-logo">
 
-
-</main>
-  <script src="./src/scripts.js" ></script>
+  </main>
+  <script src="./src/scripts.js"></script>
 </body>
 
 </html>

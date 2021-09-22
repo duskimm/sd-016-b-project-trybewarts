@@ -78,3 +78,22 @@ select {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.section2 {
+  display: flex;
+}
+
+.familias {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.tecnologias {
+  display: flex;
+  flex-direction: column;
+  width: 415px;
+}
+
+
+
