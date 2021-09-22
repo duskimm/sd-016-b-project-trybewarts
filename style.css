@@ -38,3 +38,13 @@ input {
   border-radius: 3px;
   background-color: rgb(251, 251, 251);
 }
+
+main {
+  display: flex;
+  width: 675px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
