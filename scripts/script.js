@@ -22,18 +22,22 @@ function addMultiplesEventsAndListeners(arr, eventsName, listener) {
   });
 }
 
-window.onload = () => {
+function placeholder(element, pholder) {
   // Otimizar mais tarde; Pega o atributo placeholder e remove enquanto em foco e adiciona quando desfocado;
-  let elements = document.getElementsByTagName('input');
-  for (let element of elements) {
-    let placeholder = element.placeholder;
-    element.addEventListener('focus', (event) => {
-      element.placeholder = '';
-    });
-    element.addEventListener('blur', (event) => {
-      element.placeholder = placeholder;
-    });
-  }
+  element.addEventListener('focus', () => {
+    element.placeholder = '';
+  });
+  element.addEventListener('blur', () => {
+    element.placeholder = pholder;
+  });
+}
+
+window.onload = () => {
+  const inputELements = document.getElementsByTagName('input');
+  Object.values(inputELements).forEach((element) => {
+    const pholder = element.placeholder;
+    placeholder(element, pholder);
+  });
 };
 
 // requirement 3.7.1 e 3.7.1
