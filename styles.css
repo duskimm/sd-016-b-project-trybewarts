@@ -43,6 +43,7 @@ main{
 main form{
 	display: flex;
 	width: 675px;
+	flex-direction: column;
 }
 
 /* Manter uma linha em branco no fim do arquivo por causa do lint */
