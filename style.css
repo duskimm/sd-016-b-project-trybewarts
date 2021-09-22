@@ -30,3 +30,12 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.form-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-div input {
+  width: 50%;
+}
