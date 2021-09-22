@@ -54,3 +54,8 @@ main {
 .class-family label {
   order: 5;
 }
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
