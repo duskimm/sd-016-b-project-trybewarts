@@ -1,13 +1,15 @@
-function login() {
-  const email = document.querySelector('.email.').value;
+function login(event) {
+  event.preventDefault();
+
+  const email = document.querySelector('.email').value;
   const senha = document.querySelector('.senha').value;
-  const validation = '';
-  if (email === 'trybe@teste.com' && senha === '123456') {
-   validation = 'Olá, Tryber!';
+  if (email === 'tryber@teste.com' && senha === '123456') {
+    alert('Olá, Tryber!');
   } else {
-   validation ='Email ou senha inválidos.';
+    alert('Email ou senha inválidos.');
   }
-  return alert(validation);
 }
+
 const loginButton = document.querySelector('button');
+
 loginButton.addEventListener('click', login);
