@@ -1,4 +1,4 @@
-.header{
+.header {
   background-color: rgb(50, 167, 145); /* requisitos 1 */
   display: flex; /* requisitos 1 */
   justify-content: space-between; /* requisitos 3 */
