@@ -57,3 +57,7 @@ main {
 #logo {
   height: 500px;
 }
+
+.family {
+  display: flex;
+}
