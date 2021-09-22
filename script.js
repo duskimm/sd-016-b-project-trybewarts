@@ -13,10 +13,10 @@ const logInFeedback = () => {
 };
 loginButton.addEventListener('click', logInFeedback);
 
-agreeCheckbox.addEventListener('click', event=> {
-    if (event.target.checked == true) {
-        submitButton.disabled = false;
-    } else {
-        submitButton.disabled = true;
-    }
-})
+agreeCheckbox.addEventListener('click', (event) => {
+  if (event.target.checked) {
+    submitButton.disabled = false;
+  } else {
+    submitButton.disabled = true;
+  }
+});
