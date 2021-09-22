@@ -1,15 +1,48 @@
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+body {
+  font-family: 'Harry Potter', sans-serif;
+  background-color: rgb(204, 198, 198);
+  margin: 0;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.trybewarts-header-logo {
+  width: 5%;
+  margin-left: 2%;
+}
+
+#trybewarts-header-title {
+  color: rgb(245, 255, 252);
 }
 
 .trybewarts-login {
   display: flex;
+  margin-right: 8%;
+}
+
+.trybewarts-login input {
+  padding: 3%;
+  border-radius: 2%;
+  border: 2px solid rgb(85, 85, 85);
+}
+
+#botao {
+  margin-left: 3%;
 }
 
 main {
   display: flex;
+  margin-bottom: 1%;
+  margin-left: 1%;
 }
 
 #evaluation-form {
@@ -30,4 +63,12 @@ main {
 #div-checkbox-content {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  background-color: rgb(50, 167, 145);
 }
