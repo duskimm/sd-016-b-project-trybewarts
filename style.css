@@ -25,3 +25,12 @@
   display: flex;
   justify-content: space-around;
 }
+
+.content-container {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
