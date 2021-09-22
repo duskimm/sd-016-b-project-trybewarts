@@ -1,6 +1,7 @@
 const user = {
   email: 'tryber@teste.com',
   password: '123456',
+  trueAgreement: false,
 };
 
 function validateUser() {
@@ -11,6 +12,20 @@ function validateUser() {
       alert('Olá, Tryber!');
     } else {
       alert('Email ou senha inválidos.');
+    }
+  });
+}
+
+function validateAgreement() {
+  const agreement = document.querySelector('#agreement');
+  const submitBtn = document.querySelector('#submit-btn');
+  agreement.addEventListener('click', () => {
+    if (user.trueAgreement) {
+      user.trueAgreement = false;
+      submitBtn.disabled = true;
+    } else {
+      user.trueAgreement = true;
+      submitBtn.disabled = false;
     }
   });
 }
@@ -31,4 +46,5 @@ window.onload = () => {
   });
 
   validateUser();
+  validateAgreement();
 };
