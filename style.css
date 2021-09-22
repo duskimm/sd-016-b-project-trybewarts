@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: fantasy;
 }
 
 .header {
@@ -18,4 +19,42 @@ header img {
 
 .trybewarts-login {
   display: flex;
+}
+
+.trybewarts-login input {
+  margin-right: 1rem;
+  border: 0;
+  border-radius: 7px;
+  padding: 10px;
+  width: 200px;
+  font-size: medium;
+}
+
+.trybewarts-login input:focus {
+  outline: none;
+}
+
+.trybewarts-login button {
+  border: 0;
+  border-radius: 7px;
+  padding: 10px;
+  width: 170px;
+  font-size: medium;
+  background-color: rgb(87, 27, 160);
+  color: white;
+  font-weight: 800;
+}
+
+.trybewarts-login button:hover {
+  cursor: pointer;
+}
+
+.trybewarts-login button:focus {
+  background-color: rgb(101, 59, 151);
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
 }
