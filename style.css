@@ -35,9 +35,6 @@ header img {
   font-weight: 800;
 }
 
-.trybewarts-login input:focus {
-  outline: none;
-}
 
 .trybewarts-login button {
   border: 0;
@@ -65,7 +62,6 @@ header img {
 }
 
 /* MAIN */
-
 main {
   display: flex;
   max-width: 1440px;
@@ -85,8 +81,7 @@ main {
 
 .input-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: wrap row;
   justify-content: space-around;
 }
 
@@ -123,4 +118,13 @@ main {
 
 hr {
   width: 100%;
+}
+
+.trybewarts-login input:focus {
+  outline: none;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin: 0 auto;
 }
