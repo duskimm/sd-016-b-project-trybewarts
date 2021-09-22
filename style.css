@@ -23,7 +23,6 @@ html {
   display: flex;
   width: 675px;
   flex-direction: column; 
-
 }
 
 .mainContent {
@@ -41,7 +40,6 @@ html {
 
 #input-name {
   width: 40%; 
-
 }
 
 #input-lastname {
@@ -55,6 +53,4 @@ html {
 
 #input-email {
   width: 40%;
-  
 }
-
