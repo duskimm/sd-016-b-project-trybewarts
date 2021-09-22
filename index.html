@@ -20,7 +20,6 @@
 
   <main>
     <form action="#" method="get" id="evaluation-form">
-      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="colored image">
       <div>
         <div class="user-names">
           <label for="input-name"><input type="text" name="input-name" id="input-name" placeholder="Nome" onfocus="this.placeholder=''" onblur="this.placeholder='Nome'"></label>
@@ -36,8 +35,17 @@
               <option id="pytherina-house" value="Pytherina">Pytherina</option>
             </select>
           </label>
-          </div>
+        </div>
       </div>
+      <div>
+        <label class="container-family" for="">
+          <h3 id="label-family">Qual sua família?</h3>
+          <label for=""><input type="radio" name="family" value="Frontend">Frontend</label>
+          <label for=""><input type="radio" name="family" value="Backend">Backend</label>
+          <label for=""><input type="radio" name="family" value="Fullstack">Fullstack</label>
+        </label>
+      </div>
+      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="colored image">
     </form>
   </main>
 </body>

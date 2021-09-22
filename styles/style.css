@@ -35,3 +35,8 @@ main {
 .user-email-house {
   display: flex;
 }
+
+.container-family {
+  display: flex;
+  flex-direction: column;
+}
