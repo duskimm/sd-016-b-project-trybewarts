@@ -47,12 +47,13 @@ function satisfactionLevel (radiobtn) {
 satisfactionLevel(10);
 
 // Requisito 18
+const submitButton = document.getElementById('submit-btn');
+submitButton.disabled = true;
 
 const agreementCheck = document.getElementById('agreement');
 agreementCheck.addEventListener('change', enableSubmitButton);
 
 function enableSubmitButton(event) {
-  const submitButton = document.getElementById('submit-btn');
   if (event.target.checked) {
     submitButton.disabled = false;
   } else {
