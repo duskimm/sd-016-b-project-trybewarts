@@ -1,3 +1,20 @@
+const user = {
+  email: 'tryber@teste.com',
+  password: '123456',
+}
+
+function validateUser() {
+  document.querySelector('#btn-login').addEventListener('click', () => {
+    const userEmail = document.querySelector('#email').value;
+    const userPassword = document.querySelector('#password').value;
+    if (userEmail === user.email && userPassword === user.password) {
+      alert('Olá, Tryber!');
+    } else {
+      alert('Email ou senha inválidos.');
+    }
+  });
+}
+
 window.onload = () => {
   /**
    * Adiciona animação para o placeholder do input desaparecer sempre que for focado;
@@ -12,6 +29,8 @@ window.onload = () => {
       element.placeholder = pholder;
     });
   });
+
+  validateUser();
 };
 
 // requirement 3.7.1 e 3.7.1
