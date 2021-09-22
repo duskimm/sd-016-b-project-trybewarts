@@ -23,7 +23,6 @@
 main {
   display: flex;
   justify-content: space-around;
-  border: 1px solid yellow;
 }
 
 #evaluation-form {
@@ -31,8 +30,9 @@ main {
   align-items: center;
   flex-direction: column;
   width: 675px;
-  border: 1px solid blue;
+  border: 1px solid red;
 }
+
 .cadastro1 {
   display: flex;
   flex-direction: row;
@@ -46,13 +46,18 @@ main {
 
 .cadastro {
   flex-basis: 50%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   width: 330px;
-  border: 1px solid red;
 }
 
 .cadastro2 {
+  display: flex;
   border: 1px solid purple;
 }
+
+.linha1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+
