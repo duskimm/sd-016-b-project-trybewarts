@@ -12,3 +12,12 @@ function validateLogin(event) {
   }
 }
 loginBtn.addEventListener('click', validateLogin);
+
+// requisito 18 adicionar evento disable
+const agreement = document.getElementById('agreement');
+const submitBtn = document.getElementById('submit-btn');
+
+function checkedAgreement() {
+  submitBtn.toggleAttribute('disabled');
+}
+agreement.addEventListener('change', checkedAgreement);
