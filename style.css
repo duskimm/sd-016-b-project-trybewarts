@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  top: 0;
+  border: 1px solid black;
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 80px;
+}
+
+.header h1 {
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.trybewarts-login input {
+  border-radius: 5px;
+  border: white;
+  width: 120px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.trybewarts-login button {
+  border-radius: 5px;
+  border: purple;
+  width: 120px;
+  height: 30px;
+  background-color: rgb(99, 2, 99);
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
