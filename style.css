@@ -81,7 +81,6 @@ hr {
   height: 500px;
 }
 
-<<<<<<< HEAD
 #line2 {
   display: flex;
   align-items: center;
@@ -92,7 +91,6 @@ hr {
   flex-direction: column;
   
 }
-=======
 footer {
   color: white;
   padding: 20px;
@@ -100,4 +98,3 @@ footer {
   display: flex;
   justify-content: center;
 }
->>>>>>> 0b7ff0ef8b1b8f425002459b52d307f78a5fa4d7
