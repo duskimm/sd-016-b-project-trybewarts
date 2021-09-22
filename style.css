@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
 }
@@ -11,19 +16,41 @@ body {
   background-size: cover;
   padding: 0 10px;
 }
+
 .trybewarts-header-logo {
   height: 90px;
 }
+
 .trybewarts-login {
   display: flex;
 }
-main, #evaluation-form{
+
+main , #evaluation-form {
   display: flex;
 }
-#evaluation-form{
+
+#evaluation-form {
   width: 675px;
   flex-direction: column;
 }
-#trybewarts-forms-logo{
+
+#trybewarts-forms-logo {
   height: 500px;
+}
+
+.personal-container {
+  display: flex;
+  flex-wrap: wrap ;
+}
+
+.personal-container input , .selectHouse-container{
+  flex-basis: 50%;
+}
+
+.selectHouse-container {
+  display: flex;
+}
+
+.selectHouse-container select {
+  flex-grow: 1;
 }
