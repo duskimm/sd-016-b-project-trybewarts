@@ -1,5 +1,5 @@
-const inputEmail = document.getElementById('input-email');
-const inputSenha = document.getElementById('input-senha');
+const inputEmail = document.getElementById('input-login-email');
+const inputSenha = document.getElementById('input-login-senha');
 const button = document.getElementById('button-formulario');
 
 function verificaFormulario() {
