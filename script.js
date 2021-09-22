@@ -22,9 +22,9 @@ const checkbox = document.querySelector('#agreement');
 const botaoEnviar = document.querySelector('#submit-btn');
 function checkEnable() {
   if (checkbox.checked) {
-    botaoEnviar.disable = false;
+    botaoEnviar.disabled = false;
   } else {
-    botaoEnviar.disable = true;
+    botaoEnviar.disabled = true;
   }
 } 
 checkbox.addEventListener('click', checkEnable);
