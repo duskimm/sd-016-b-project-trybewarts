@@ -1,10 +1,18 @@
 .header{
-    background-color: rgb(50, 167, 145); /* requisitos 1 */
-    display: flex; /* requisitos 1 */
-    justify-content: space-between ; /* requisitos 3 */
+  background-color: rgb(50, 167, 145); /* requisitos 1 */
+  display: flex; /* requisitos 1 */
+  justify-content: space-between ; /* requisitos 3 */
 }
 
 .trybewarts-login {
     display: flex; /* requisitos 3 */
 }
 
+main {
+  display: flex; /* requisitos 5 */
+}
+
+#evaluation-form {
+  display: flex; /* requisitos 5 */
+  width: 675px; /* requisitos 5 */
+}
