@@ -1,6 +1,7 @@
 const loginBtn = document.getElementById('form-submit');
 const emailIpt = document.getElementById('email');
 const passwordIpt = document.getElementById('password');
+const formDiv4 = document.querySelector('.form-div-4');
 
 function changeEventSubmit() {
   if (emailIpt.value === 'tryber@teste.com' && passwordIpt.value === '123456') {
@@ -10,3 +11,17 @@ function changeEventSubmit() {
 }
 
 loginBtn.addEventListener('click', changeEventSubmit);
+
+function createRadio() {
+  for (let i = 1; i <= 10; i += 1) {
+    const lbl = document.createElement('label');
+    lbl.innerText = i;
+    const radioBtn = document.createElement('input');
+    radioBtn.type = 'radio';
+    radioBtn.value = i;
+    radioBtn.name = 'rate';
+    formDiv4.appendChild(lbl);
+    lbl.appendChild(radioBtn);
+  }
+}
+createRadio();
