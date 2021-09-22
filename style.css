@@ -34,3 +34,7 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#name-lastName-container {
+  display: flex;
+}
