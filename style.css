@@ -56,7 +56,7 @@ main {
   height: 500px;
 }
 
-#test {
+#family, #label-content {
   display: flex;
   flex-direction: column;
 }
