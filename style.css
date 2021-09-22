@@ -5,10 +5,34 @@
 
 .header {
   padding: 10px;
-  display: flex;
   background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .trybewarts-header-logo {
   width: 50px;
+}
+
+.trybewarts-login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.trybewarts-login input {
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.trybewarts-login input:focus {
+  outline: none;
+}
+
+.trybewarts-login button {
+  min-width: 10vw;
+  padding: 5px;
 }
