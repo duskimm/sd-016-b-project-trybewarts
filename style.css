@@ -28,3 +28,12 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+main {
+  margin-left: 1%;
+}
+
+.familys {
+  display: flex;
+  flex-direction: column;
+}
