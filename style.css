@@ -31,6 +31,10 @@ main {
   display: flex;
 }
 
+.form-radio {
+  flex-direction: column;
+}
+
 #input-name {
   width: 50%;
 }
