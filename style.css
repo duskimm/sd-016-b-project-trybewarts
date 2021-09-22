@@ -65,3 +65,7 @@ main , #evaluation-form {
   display: flex;
   flex-direction: column;
 }
+
+#checkbox-id {
+  display: flex;  
+}
