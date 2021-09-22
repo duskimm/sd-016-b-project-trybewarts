@@ -117,7 +117,13 @@
             >Você concorda com o uso das informações acima?</label
           >
           <label for="agreement"></label
-          ><input type="checkbox" name="acordo" id="agreement" required onchange="document.getElementById('submit-btn').disabled = !this.checked;"/>
+          ><input
+            type="checkbox"
+            name="acordo"
+            id="agreement"
+            required
+            onchange="document.getElementById('submit-btn').disabled = !this.checked;"
+          />
         </div>
         <div>
           <button id="submit-btn" type="submit" disabled>Enviar</button>
