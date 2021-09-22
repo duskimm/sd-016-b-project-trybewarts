@@ -9,7 +9,6 @@
 #evaluation-form {
   width: 675px;
   flex-direction: column;
-  /* border: 1px solid orange; */
 }
 
 main {
@@ -54,7 +53,7 @@ main {
   justify-content: space-around;
 }
 
-#first-content, #second-content {
+#first-content , #second-content {
   display: flex;
 }
 
@@ -62,7 +61,7 @@ main {
   display: flex;
 }
 
-form, main {
+form , main {
   display: flex;
 }
 
