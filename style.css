@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
 }
@@ -31,4 +36,21 @@ main , #evaluation-form {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.personal-container {
+  display: flex;
+  flex-wrap: wrap ;
+}
+
+.personal-container input , .selectHouse-container{
+  flex-basis: 50%;
+}
+
+.selectHouse-container {
+  display: flex;
+}
+
+.selectHouse-container select {
+  flex-grow: 1;
 }
