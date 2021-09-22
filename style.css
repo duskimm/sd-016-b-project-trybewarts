@@ -26,3 +26,15 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#form-fullname {
+  display: flex;
+}
+
+#input-name {
+  width: 50%;
+}
+
+#input-lastname {
+  width: 50%;
+}
