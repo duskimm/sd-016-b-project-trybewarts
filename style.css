@@ -43,3 +43,18 @@
   margin-right: 10px;
   margin-left: 10px;
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  border: 1px solid black;
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
