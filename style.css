@@ -11,3 +11,12 @@
 #trybewarts-header-title {
   justify-self: center;
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
