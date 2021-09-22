@@ -1,9 +1,9 @@
-const inputEmail = document.getElementById('input-email');
+const inputEmailHeader = document.getElementById('input-email-header');
 const inputSenha = document.getElementById('input-senha');
 const buttonForm = document.getElementById('button-form');
 
 function formValidade() {
-  const inputEmailValue = inputEmail.value;
+  const inputEmailValue = inputEmailHeader.value;
   const inputSenhaValue = inputSenha.value;
   if (inputEmailValue === 'tryber@teste.com' && inputSenhaValue === '123456') {
     alert('Olá, Tryber!');
