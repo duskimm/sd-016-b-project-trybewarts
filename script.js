@@ -4,29 +4,30 @@ const loginButton = document.getElementById('login-button');
 const submitButton = document.getElementById('submit-btn');
 const agreeCheckbox = document.getElementById('agreement');
 
-
-
-
-
-
-
-
-
-let logInFeedback = () => {
-    if (emailInput.value !== 'tryber@teste.com' || passwordInput.value !== '123456') {
-        alert ('Email ou senha inválidos') 
-    } else {
-        alert ('Olá Tryber!')
-    }
-}
+const logInFeedback = () => {
+  if (emailInput.value !== 'tryber@teste.com' || passwordInput.value !== '123456') {
+    alert('Email ou senha inválidos');
+  } else {
+    alert('Olá Tryber!');
+  }
+};
 loginButton.addEventListener('click', logInFeedback);
 
-let buttonDisable = () => {
-    if (agreeCheckbox.checked === true) {
-        submitButton.disabled === false
-    } else {
-        submitButton.disabled === true
-    }
-}
+// let buttonDisable = () => {
+//     if (agreeCheckbox.checked === true) {
+//         submitButton.disabled = false
+//     } else {
+//         submitButton.disabled = true;
+//     }
+// }
 
+// buttonDisable();
+
+const buttonDisable = () => {
+  if (agreeCheckbox.checked == false) {
+    submitButton.disabled = true;
+  } else {
+    submitButton.disabled = false;
+  }
+};
 buttonDisable();
