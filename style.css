@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+#evaluation-form {
+  width: 675px;
+  flex-direction: column;
+  /* border: 1px solid orange; */
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-container {
+  display: flex;
+}
+
+.emailcasa-container {
+  display: flex;
+}
+
+.family-options {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+#text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#rate-container input {
+  margin-left: 20px;
+}
+
+#rate-container {
+  display: flex;
+}
+
+#more-options {
+  border: 1px solid purple;
+}
+
+#input-container {
+  display: flex;
+  border: 1px solid orange;
+  justify-content: space-around;
+}
+
+#first-content, #second-content {
+  display: flex;
+}
+
+.label-content {
+  display: flex;
+}
+
+form, main {
+  display: flex;
+}
+
+/* form {
+  border: 1px solid purple;
+} */
+
+#header-logo {
+  width: 100px;
+  display: flex;
+  height: 100px;
+}
