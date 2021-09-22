@@ -75,3 +75,8 @@ main , #evaluation-form {
 .input-container label {
   flex-basis: 33%;
 }
+
+#text {
+  display: flex;
+  flex-direction: column;
+}
