@@ -22,3 +22,11 @@ function agreementCheck() {
   }
 }
 agreementCheck();
+
+// contador
+const texto = document.getElementById('textarea');
+const counter = document.getElementById('counter');
+function counterCharacter() {
+  counter.value = 500 - texto.value.length;
+}
+counterCharacter();
