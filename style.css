@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+}
+
+.header h1 {
+  color: white;
+  margin-right: 50px;
+}
+
+.trybewarts-header-logo {
+  width: 50px;
+}
