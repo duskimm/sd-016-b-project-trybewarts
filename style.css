@@ -39,11 +39,22 @@
       height: 500px;
 }
 
-.box-wrap-form{
+.box-wrap-form {
     width: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
+}
+
+.box-radio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#label-family{
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
