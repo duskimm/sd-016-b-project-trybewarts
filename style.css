@@ -7,3 +7,7 @@
 .trybewarts-login {
   display: flex;
 }
+
+body {
+  margin: 0px;
+}
