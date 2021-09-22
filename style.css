@@ -36,12 +36,13 @@ main {
   width: 675px;
   flex-direction: column;
 }
+
 #nomeSobrenome {
   display: flex;
   justify-content: space-between;
 }
 
-#input-name, #input-lastname {
+#input-name , #input-lastname {
   width: 50%;
 }
 
@@ -50,7 +51,7 @@ main {
   justify-content: space-between;
 }
 
-#input-email, #house {
+#input-email , #house {
   width: 50%;
 }
 
