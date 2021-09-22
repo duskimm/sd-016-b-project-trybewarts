@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: 0;
+}
+
+.divHeader {
+  display: flex;
+  justify-content: space-between; 
+  background-color: rgb(50, 167, 145);
+  height: 5rem;
+}
+
+.trybewarts-header-logo {
+  height: 4rem;
+}
