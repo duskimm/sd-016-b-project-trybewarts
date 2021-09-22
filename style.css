@@ -3,9 +3,9 @@
   padding: 0;
 }
 
-body {
+/* body {
   background-color: rgb(31 , 31, 31);
-}
+} */
 
 header {
   display: flex;
@@ -53,10 +53,25 @@ main {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   width: 675px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-container input, select{
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+ }
+
+.form-container select {
+  width: 200px;
 }
