@@ -22,3 +22,26 @@
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.form-inputs {
+  width: 320px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px 2px;
+}
+
+#house {
+  width: 289px;
+  height: 36px;
+}
+
+.form-inputs:focus {
+  outline: none;
+  border: 2px solid rgb(50, 167, 145);
+}
+
+.inputs-container {
+  display: flex;
+  flex-flow: row wrap;
+}
