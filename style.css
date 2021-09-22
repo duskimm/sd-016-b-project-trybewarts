@@ -1,0 +1,62 @@
+/*Header */
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  left: 0;
+  padding: 0.5%;
+  top: 0;
+}
+
+.trybewarts-header-logo {
+  margin-left: 1%;
+  width: 60px;
+  align-self: center;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.header form input {
+  border: 0;
+  border-radius: 5px;
+  color: rgb(38, 124, 108);
+  height: 32px;
+  margin: auto 5px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 120px;
+  padding-left: 20px;
+}
+
+.header form input:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.header form button {
+  background-color: rgb(87, 32, 160);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  height: 32px;
+  margin: auto 5px;
+  width: 140px;
+}
+
+.header form button:hover {
+  background-color: rgb(42, 7, 87);
+}
+
+#trybewarts-header-title {
+  color: white;
+  align-self: center;
+  font-weight: bold;
+}
