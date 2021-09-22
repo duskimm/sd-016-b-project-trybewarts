@@ -22,21 +22,19 @@ function addMultiplesEventsAndListeners(arr, eventsName, listener) {
   });
 }
 
-function placeholder(element, pholder) {
-  // Otimizar mais tarde; Pega o atributo placeholder e remove enquanto em foco e adiciona quando desfocado;
-  element.addEventListener('focus', () => {
-    element.placeholder = '';
-  });
-  element.addEventListener('blur', () => {
-    element.placeholder = pholder;
-  });
-}
-
 window.onload = () => {
+  /**
+   * Adiciona animação para o placeholder do input desaparecer sempre que for focado;
+   */
   const inputELements = document.getElementsByTagName('input');
-  Object.values(inputELements).forEach((element) => {
-    const pholder = element.placeholder;
-    placeholder(element, pholder);
+  Object.values(inputELements).forEach((element) => { //Itera os elementos como objeto e não como array;
+    const pholder = element.placeholder; // Armazena o elemento antigo;
+    element.addEventListener('focus', () => { // Remove o placeholder do elemento quando focado;
+      element.placeholder = '';
+    });
+    element.addEventListener('blur', () => { // Devolve o placeholder do elemento quando desfocado;
+      element.placeholder = pholder;
+    });
   });
 };
 
