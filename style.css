@@ -85,3 +85,13 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+
+#label-rate {
+  display: flex;
+  flex-direction: row;
+}
+
+.radio {
+  display: flex;
+}
