@@ -66,3 +66,11 @@ main {
 #input-email-container {
   display: flex;
 }
+
+#label-family {
+  display: block;
+}
+
+.input-family {
+  display: block;
+}
