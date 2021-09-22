@@ -80,6 +80,7 @@ main {
 }
 
 .input-container {
+  padding: 0 0 50px;
   display: flex;
   flex-flow: wrap row;
   justify-content: space-around;
@@ -120,11 +121,41 @@ hr {
   width: 100%;
 }
 
-.trybewarts-login input:focus {
+input:focus {
   outline: none;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
   margin: 0 auto;
+}
+
+.input-container2 {
+  padding: 50px 0;
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#container-family {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#container-content {
+  display: flex;
+  flex-flow: wrap column;
+  width: 60%;
+  justify-content: space-around;
+}
+
+#label-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#label-content label {
+  width: 30%;
 }
