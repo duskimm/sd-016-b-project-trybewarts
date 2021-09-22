@@ -1,5 +1,5 @@
-const inputEmail = document.getElementById('input-email');
-const inputSenha = document.getElementById('input-senha');
+const inputEmail = document.getElementById('login-email');
+const inputSenha = document.getElementById('login-senha');
 const buttonEntrar = document.getElementById('btn-entrar');
 
 // Validando email e senha e retorna um alert

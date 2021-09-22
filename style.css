@@ -45,16 +45,29 @@ main {
 }
 
 /* ID */
+#btn-entrar {}
+
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
 }
 
-#trybewarts-forms-logo{
-    height: 500px;
+#input-login-email {}
+
+#input-login-senha {}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
+
+#trybewarts-header-title {}
+
 /* CLASS */
+.header {}
+
+.trybewarts-header-logo {}
+
 .trybewarts-login {
   display: flex;
 }
