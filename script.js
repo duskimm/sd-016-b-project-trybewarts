@@ -1,4 +1,4 @@
-const email = document.querySelector('#input-email');
+const email = document.querySelector('#input-email-login');
 const senha = document.querySelector('#input-senha');
 const loginBtn = document.querySelector('#login-btn');
 
