@@ -22,8 +22,11 @@
 
   <main>
     <form id="evaluation-form" action="">
-      <input type="text" name="firstName" id="input-name" placeholder="Nome">
-      <input type="text" name="lastName" id="input-lastname" placeholder="Sobrenome">
+      <div>
+        <input type="text" name="firstName" id="input-name" placeholder="Nome">
+        <input type="text" name="lastName" id="input-lastname" placeholder="Sobrenome">
+      </div>
+      <div>
         <input type="email" name="input-email" id="input-email" placeholder="Email">
         <select name="" id="house">
           <option id="gitnoria-house" value="Gitnória">Gitnória</option>
@@ -31,15 +34,16 @@
           <option id="corvinode-house" value="Corvinode">Corvinode</option>
           <option id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
-        <div>
-          <p>Qual sua família?</p>
-          <input type="radio" id="frontend" name="family" value="Frontend" >
-          <label for="frontend" class="label-family">Frontend</label><br>
-          <input type="radio" id="backend" name="family" value="Backend">
-          <label for="backend" class="label-family">Backend</label><br>
-          <input type="radio" id="fullStack" name="family" value="FullStack">
-          <label for="fullStack" class="label-family">FullStack</label><br>
-        </div>
+      </div>
+      <div>
+        <p>Qual sua família?</p>
+        <input type="radio" id="frontend" name="family" value="Frontend" >
+        <label for="frontend" class="label-family">Frontend</label><br>
+        <input type="radio" id="backend" name="family" value="Backend">
+        <label for="backend" class="label-family">Backend</label><br>
+        <input type="radio" id="fullStack" name="family" value="FullStack">
+        <label for="fullStack" class="label-family">FullStack</label><br>
+      </div>
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
   </main>
