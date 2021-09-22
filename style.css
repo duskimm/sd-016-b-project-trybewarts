@@ -29,7 +29,7 @@
   font-size: 30px;
 }
 
-main , #evaluation-form , #complete-name , #data {
+main , #evaluation-form , #complete-name , #data , #families {
   display: flex;
 }
 
@@ -40,4 +40,8 @@ main , #evaluation-form , #complete-name , #data {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#families {
+  flex-direction: column;
 }
