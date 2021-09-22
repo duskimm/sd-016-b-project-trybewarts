@@ -38,6 +38,10 @@ main , #evaluation-form {
   flex-direction: column;
 }
 
+#complete-name {
+  display: flex;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
