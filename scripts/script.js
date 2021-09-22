@@ -21,3 +21,5 @@ function addMultiplesEventsAndListeners(arr, eventsName, listener) {
     });
   });
 }
+
+// requirement 3.7.1 e 3.7.1
