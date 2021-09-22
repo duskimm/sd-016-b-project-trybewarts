@@ -7,18 +7,18 @@ const agreement = document.getElementById('agreement');
 
 // Funções
 function verifyLogin() {
-    if (login.value === 'tryber@teste.com' && password.value === '123456') {
-        return alert('Olá, Tryber!');
-    }
-    return alert('Email ou senha inválidos.');
+  if (login.value === 'tryber@teste.com' && password.value === '123456') {
+    return alert('Olá, Tryber!');
+  }
+  return alert('Email ou senha inválidos.');
 }
 
 function verifyAgreementSubmitBtn() {
-    if (agreement.checked === true) {
-        submitButton.disabled = false;
-    } else if (agreement.checked === false) {
-        submitButton.disabled = true;
-    }
+  if (agreement.checked === true) {
+    submitButton.disabled = false;
+  } else if (agreement.checked === false) {
+    submitButton.disabled = true;
+  }
 }
 
 // EventListeners
