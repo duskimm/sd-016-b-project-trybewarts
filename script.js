@@ -2,6 +2,7 @@ const inputEmail = document.getElementById('email-input');
 const inputPassword = document.getElementById('password-input');
 const btnSubmitLogin = document.getElementById('btn-submit-login');
 const checkAgreement = document.getElementById('agreement');
+const textArea = document.getElementById('textarea');
 
 function verifyData(event) {
   event.preventDefault();
@@ -25,6 +26,18 @@ function ableBtn() {
   }
 }
 
+function charCounter() {
+  const counter = document.getElementById('counter')
+  counter.innerHTML = 499 - textArea.value.length 
+  if(textArea.value.length === 0) {
+    counter.innerHTML = 500
+  } else {
+    counter.innerHTML = 500 - textArea.value.length
+  }
+}
+
 checkAgreement.addEventListener('click', ableBtn);
 btnSubmitLogin.addEventListener('click', verifyData);
+textArea.addEventListener('keyup', charCounter)
+
 
