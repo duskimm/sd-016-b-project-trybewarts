@@ -51,6 +51,9 @@ main {
   width: 675px;
 }
 
+#trybewarts-forms-logo{
+    height: 500px;
+}
 /* CLASS */
 .trybewarts-login {
   display: flex;
