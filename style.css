@@ -3,9 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu';
-  }
-  
-  .header {
-    display: flex;
-    background-color: rgb(50, 167, 145)
-  }
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145)
+}
+
+.trybewarts-heafer-logo {
+  height: 100px;
+  padding: 10px;
+}
