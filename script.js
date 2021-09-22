@@ -1,9 +1,8 @@
-const formTrybewarts = document.getElementsByClassName('trybewarts-login')[0];
 const inputEmail = document.getElementById('input-email');
 const inputSenha = document.getElementById('input-senha');
 const buttonForm = document.getElementById('button-form');
 
-function formValidade () {
+function formValidade() {
   const inputEmailValue = inputEmail.value;
   const inputSenhaValue = inputSenha.value;
   if (inputEmailValue === 'tryber@teste.com' && inputSenhaValue === '123456') {
