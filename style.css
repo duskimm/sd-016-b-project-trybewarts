@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
 
@@ -44,8 +44,7 @@ main {
   flex-wrap: wrap;
 }
 
-#evaluation-form input,
-select {
+#evaluation-form input , select {
   flex-basis: 50%;
 }
 
@@ -54,8 +53,7 @@ select {
   height: 500px;
 }
 
-#family,
-#label-content {
+#family , #label-content {
   display: flex;
   flex-direction: column;
 }
