@@ -12,3 +12,33 @@
 .trybewarts-header-logo {
   width: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#evaluation-form input {
+  padding: 20px;
+}
+
+
