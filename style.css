@@ -18,12 +18,14 @@
 main {
   display: flex;
   margin-left: 1%;
+  border: 1px solid black;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  border: 2px solid red;
 }
 
 #trybewarts-forms-logo {
