@@ -27,7 +27,7 @@ main {
   height: 500px;
 }
 
-#form-fullname {
+.form-inputs {
   display: flex;
 }
 
