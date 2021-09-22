@@ -28,3 +28,11 @@ main {
   display: flex;
   height: 500px;
 }
+
+#flex1 {
+  display: flex;
+}
+
+#flex2 {
+  display: flex;
+}
