@@ -22,7 +22,8 @@ html {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column;
+  flex-direction: column; 
+
 }
 
 .mainContent {
@@ -32,3 +33,28 @@ html {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.rowMode {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#input-name {
+  width: 40%; 
+
+}
+
+#input-lastname {
+  width: 40%;
+}
+
+#house {
+  width: 40%; 
+  float: right;
+}
+
+#input-email {
+  width: 40%;
+  
+}
+

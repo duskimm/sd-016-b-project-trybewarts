@@ -1,7 +1,7 @@
 const btnSub = document.getElementById('btn-sub');
 
 function email() {
-  const inputEmail = document.getElementById('input-email').value;
+  const inputEmail = document.getElementById('input__email').value;
   const inputSenha = document.getElementById('input-senha').value;
   if (inputEmail === 'tryber@teste.com' && inputSenha === '123456') {
     alert('Olá, Tryber!');
