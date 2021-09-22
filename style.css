@@ -4,11 +4,16 @@
 }
 
 .header {
+  color: rgb(251, 251, 251);
   display: flex;
   justify-content: space-between;
   height: 70px;
   padding: 3px;
   background-color: rgb(50, 167, 145);
+}
+
+h1 {display: flex;
+  align-items: center;
 }
 
 .trybewarts-login {
