@@ -10,3 +10,6 @@
 }
 
 /* REQUISITO 3 */
+form {
+    display: flex;
+}
