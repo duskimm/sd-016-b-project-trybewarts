@@ -13,7 +13,7 @@
   position: static;
   width: 100%;
 }
-  
+
 body {
   background-color: rgb(235, 235, 235);
   font-family: Times, serif;
@@ -45,7 +45,7 @@ body {
   align-self: center;
   color: white;
   font-size: 55px;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px black;
 }
 
 footer {

@@ -1,4 +1,4 @@
-//Login validation//
+// Login validation
 document.getElementById('loginButton').addEventListener('click', () => {
   const email = document.getElementById('email').value;
   const senha = document.getElementById('senha').value;
@@ -8,10 +8,10 @@ document.getElementById('loginButton').addEventListener('click', () => {
     alert('Olá, Tryber!');
   } else {
     alert('Login ou senha inválidos.');
-    }
-  });
+  }
+});
 
-//18
+// 18
 const submitBtn = document.querySelector('#submit-btn');
 submitBtn.disabled = true;
 const agree = document.querySelector('#agreement');
@@ -23,7 +23,7 @@ agree.addEventListener('click', () => {
   }
 });
 
-//20
+// 20
 const tArea = document.querySelector('#textarea');
 const counter = document.querySelector('#counter');
 counter.innerHTML = '500';
