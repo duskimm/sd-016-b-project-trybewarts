@@ -25,3 +25,13 @@
 .header > .box:nth-child(3){
   order: 2;
 }
+
+.flex-container-main {
+  display: flex;
+
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
