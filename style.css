@@ -32,3 +32,8 @@
 #house {
   width: 100%;
 }
+
+.yourFamily {
+  display: flex;
+  flex-direction: column;
+}
