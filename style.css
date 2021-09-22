@@ -24,3 +24,30 @@ main form{
 #trybewarts-forms-logo{
     height: 500px;
 }
+#conteudo2{
+    display: flex;
+    align-items: center;
+    
+    height: 250px;
+    justify-content: space-around;
+}
+#Qfamilia div{
+    display: flex;
+    flex-direction: column;
+    
+}
+#Qconteudo div{
+
+    flex-direction: row;
+    flex-flow: wrap;
+   
+    height: 100px;
+    width: 55%;
+
+}
+#avalicao div{
+    display: flex;
+}
+#checkboxAvalicao{
+    display: flex;
+}
