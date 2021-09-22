@@ -60,3 +60,8 @@ main , #evaluation-form {
   display: flex;
   flex-direction: column;
 }
+
+#text {
+  display: flex;
+  flex-direction: column;
+}
