@@ -2,56 +2,62 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-.header {
+  }
+  
+  .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(50, 167, 145);
-}
-
-.trybewarts-header-logo {
+  }
+  
+  .trybewarts-header-logo {
   width: 100px;
-}
-
-.trybewarts-login {
+  }
+  
+  .trybewarts-login {
   display: flex;
   margin-right: 20px;
-}
-
-main {
+  }
+  
+  main {
   display: flex;
-  justify-content: space-around;
-  border: 1px solid yellow;
-}
-
-form h1 {
-  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
-  flex-basis: 100%;
-}
-
-#evaluation-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 675px;
   border: 1px solid blue;
-}
+  }
+  
+  #titulo-form{
+  /* flex-basis: 100%; */
+  text-align: center;
+  }
 
-#trybewarts-forms-logo {
-  height: 500px;
-}
-
-.cadastro {
+  #evaluation-form {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  width: 320px;
-  border: 1px solid red;
-}
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content:center;
+  width: 675px;
+  border: 2px solid red;
+  }
+  
+  #evaluation-form :nth-child(1){
+  order: 1;
+  }
+  #evaluation-form :nth-child(2){
+  order: 3;
+  }
+  #evaluation-form :nth-child(3){
+  order: 2;
+  }
+  #evaluation-form :nth-child(4){
+  order: 4;
+  }
+  
+  .cadastro{
+  flex-basis: 40%;
+  }
+  
+  #trybewarts-forms-logo {
+  height: 500px;
+  } 
