@@ -3,9 +3,9 @@
   padding: 0;
 }
 
-body {
+/* body {
   background-color: rgb(31 , 31, 31);
-}
+} */
 
 header {
   display: flex;
@@ -59,4 +59,14 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+}
+
+#label-content {
+  display: flex;
+  flex-direction: column;
 }
