@@ -18,3 +18,41 @@ body {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+}
+  
+  header img {
+  width: 100px;
+}
+  
+  header h1 {
+  color: white;
+  font-size: 45px;
+  } 
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+.trybewarts-login input {
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
+  margin: 5px;
+}
+
+.trybewarts-login button {
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  border: 0;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+}
