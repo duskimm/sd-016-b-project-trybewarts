@@ -99,11 +99,9 @@ main form h1 {
   display: flex;
   flex-basis: 24%;
   justify-content: space-between;
-<<<<<<< HEAD
-  margin-right: 28px;}
-=======
   margin-right: 28px;
 }
+  
 .container-secondSection {
   display: flex;
 }
@@ -125,4 +123,3 @@ hr {
   flex-wrap: wrap;
   padding-right: 20px;
 }
->>>>>>> 1d42767359842ddc4c538fdc1e56355bbf538022
