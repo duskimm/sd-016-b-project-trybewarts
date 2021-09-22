@@ -6,16 +6,37 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
   width: 100%;
 }
 
-.header h1 {
-  color: white;
-  margin-right: 50px;
-}
-
 .trybewarts-header-logo {
   width: 50px;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+
+.header #trybewarts-header-title {
+  color: white;
+}
+
+#email , #password , .btn {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#email , #password {
+  margin-right: 5px;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: space-between;
 }
