@@ -15,3 +15,7 @@
 header img {
   width: 50px;
 }
+
+.trybewarts-login {
+  display: flex;
+}
