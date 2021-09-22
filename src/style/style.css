@@ -38,7 +38,7 @@ input {
 
 select {
   padding: 0.6rem;
-  margin: 0 0.3rem; 
+  margin: 0 0.3rem;
   border-radius: 0.5rem;
   background-color: white;
 }
@@ -60,7 +60,6 @@ select {
   display: flex;
   justify-content: space-evenly;
 }
-
 
 #formAvaliation {
   display: flex;
@@ -86,14 +85,24 @@ select {
 .familias {
   display: flex;
   flex-direction: column;
+  padding: 20px;
   width: 250px;
 }
 
 .tecnologias {
+  padding: 20px;
   display: flex;
   flex-direction: column;
   width: 415px;
+  height: 150px;
 }
 
+.tecnologias input {
+  justify-content: flex-start;
+}
 
-
+.tecCheck {
+  flex-flow: row;
+  flex-wrap: wrap;
+  padding-right: 60px;
+}
