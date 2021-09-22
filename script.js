@@ -19,4 +19,3 @@ agreement.addEventListener('change', () => {
     submitBtn.disabled = false;
   }
 });
-
