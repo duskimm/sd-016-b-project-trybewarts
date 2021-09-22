@@ -23,16 +23,34 @@
 
     <main>
         <form id="evaluation-form" action="">
-            <input id="input-name" type="text" placeholder="Nome">
-            <input id="input-lastname" type="text" placeholder="Sobrenome">
-            <input id="input-email" type="email" placeholder="Email">
+            <div id="flex-div">
+                <input id="input-name" type="text" placeholder="Nome">
+                <input id="input-lastname" type="text" placeholder="Sobrenome">
+            </div>
+            <div id="flex-div2">
+                <input id="input-email" type="email" placeholder="Email">
 
-            <select name="" id="house">
-                <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-                <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-                <option id="corvinode-house" value="Corvinode">Corvinode</option>
-                <option id="pytherina-house" value="Pytherina">Pytherina</option>
-            </select>
+                <select name="" id="house">
+                    <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                    <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                    <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                    <option id="pytherina-house" value="Pytherina">Pytherina</option>
+                </select>
+            </div>
+            
+            <label id="label-family" for="">Qual sua família?</label>
+            <div>
+                <input type="radio" name="family" id="" value="Frontend">
+                <label for="">Frontend</label>
+            </div>
+            <div>
+                <input type="radio" name="family" id="" value="Backend">
+                <label for="">Backend</label>
+            </div>
+            <div>
+                <input type="radio" name="family" id="" value="FullStack">
+                <label for="">FullStack</label>
+            </div>
 
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo2">
