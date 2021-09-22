@@ -1,6 +1,6 @@
 const loginButton = document.getElementById('login-button');
-const login = document.querySelector('#email');
-const password = document.querySelector('#password');
+const login = document.getElementById('email');
+const password = document.getElementById('password');
 
 function verifyLogin(){
     if (login.value === 'tryber@teste.com' && password.value === '123456') {
