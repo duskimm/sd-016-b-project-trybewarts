@@ -14,15 +14,15 @@
   display: flex;
 }
 
-.header > .box:nth-child(1){
+.header > .box:nth-child( 1 ) {
   order: 1;
 }
 
-.header > .box:nth-child(2){
+.header > .box:nth-child( 2 ) {
   order: 3;
 }
 
-.header > .box:nth-child(3){
+.header > .box:nth-child( 3 ) {
   order: 2;
 }
 
