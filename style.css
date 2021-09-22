@@ -7,10 +7,24 @@ body {
   display: flex;
   height: 150px;
   justify-content: space-between;
-  /* line-height: 150px; */
 }
 
 .trybewarts-login {
   display: flex;
   align-items: center;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  display: flex;
+  height: 500px;
 }
