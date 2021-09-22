@@ -10,3 +10,15 @@ function username() {
 
 const submitButton = document.querySelector('#submitButton');
 submitButton.addEventListener('click', username);
+
+const agreementButton = document.getElementById('submit-btn');
+
+function agreementCheck() {
+  const checkbox = document.getElementById('agreement');
+  if (checkbox.checked === false) {
+    agreementButton.disabled = true;
+  } else {
+    agreementButton.disabled = false;
+  }
+}
+agreementCheck();
