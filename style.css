@@ -40,9 +40,17 @@ header {
   justify-content: space-between;
 }
 
+main {
+  display: flex;
+}
+
 /* ID */
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
 
 /* CLASS */
-.trybewarts-login{
-    display: flex;
+.trybewarts-login {
+  display: flex;
 }
