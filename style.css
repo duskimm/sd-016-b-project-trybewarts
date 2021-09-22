@@ -52,7 +52,7 @@ main {
 #evaluation-form {
   border: 1px solid red;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   width: 675px;
 }
 
@@ -74,4 +74,14 @@ main {
 
 .form-container select {
   width: 200px;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+}
+
+#label-content {
+  display: flex;
+  flex-direction: column;
 }
