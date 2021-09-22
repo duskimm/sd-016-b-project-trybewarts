@@ -1,4 +1,17 @@
 const btnSub = document.getElementById('btn-sub');
+const btnSub2 = document.querySelector('#submit-btn');
+const ageChckBox2 = document.getElementById('agreement');
+
+btnSub2.disabled = true;
+
+function disable(e) {
+  const eTar = e.target.checked;
+  if (eTar) {
+    btnSub2.disabled = false;
+  } else {
+    btnSub2.disabled = true;
+  }
+}
 
 function email() {
   const inputEmail = document.getElementById('input__email').value;
@@ -15,4 +28,5 @@ function loginValidate(e) {
   email();
 }
 
+ageChckBox2.addEventListener('change', disable);
 btnSub.addEventListener('click', loginValidate);
