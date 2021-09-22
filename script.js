@@ -12,3 +12,19 @@ loginBtn.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+function submitForm() {
+  const checkBox = document.querySelector('#agreement');
+  const submitBtn = document.querySelector('#submit-btn');
+
+  submitBtn.disabled = true;
+  checkBox.addEventListener('click', () => {
+    if (!checkBox.checked) {
+      submitBtn.disabled = true;
+    } else {
+      submitBtn.disabled = false;
+    }
+  });
+}
+
+submitForm();
