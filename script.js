@@ -16,3 +16,4 @@ function validateLog(event) {
 }
 
 submitButton.addEventListener('click', validateLog);
+
