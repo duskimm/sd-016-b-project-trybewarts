@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -7,10 +6,9 @@
 
 .trybewarts-login{
 	display: flex;
+	align-items: center;
 }
 
-=======
->>>>>>> 5a10428b71339c4f1af88c610f4005512433fb06
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +32,13 @@ footer {
   text-align: center;
   font-family: Georgia, Times New Roman, Times, serif;
   font-weight: 600;
+}
+main{
+	display: flex;
+}
+main form{
+	display: flex;
+	width: 675px;
 }
 
 /* Manter uma linha em branco no fim do arquivo por causa do lint */
