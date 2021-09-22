@@ -32,6 +32,11 @@
   flex-direction: column;
 }
 
+.avaliacao {
+  display: flex;
+  justify-content: space-around;
+}
+
 
 
 .aside-content {
