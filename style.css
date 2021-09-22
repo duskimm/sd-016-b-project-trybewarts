@@ -1,26 +1,25 @@
 #evaluation-form{
-    display: flex;
-    flex-direction: column;
-    width: 675px;
+  display: flex;
+  flex-direction: column;
+  width: 675px;
 }
 
 .header{
-    background-color: rgb(50, 167, 145);
-    display: flex;
-    justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
 }
 
 main{
-    display: flex;
+  display: flex;
 }
 
 #trybewarts-header-title{
-    align-self: center;
+  align-self: center;
 }
 
 .trybewarts-login{
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
 }
 
