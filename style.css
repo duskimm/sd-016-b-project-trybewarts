@@ -48,7 +48,15 @@ main {
   flex-wrap: wrap;
 }
 
-.avaliation {
+.rate {
+  display: flex;
+}
+
+#avaliation {
   display: flex;
   flex-direction: column;
+}
+
+.agreement {
+  display: flex;
 }

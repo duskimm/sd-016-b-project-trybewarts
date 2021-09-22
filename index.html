@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header">
         <img src="images/trybewarts-header-logo.svg" alt="logo-trybe-header" class="trybewarts-header-logo">
@@ -44,23 +46,23 @@
                     <div class="checkbox">
                         <label for="#" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
                         <div class="checkbox-itens">
-                          <label for="HoFs">HoFs</label>
-                          <input type="checkbox" value="HoFs" id="HoFs" >
-                          <label for="Jest">Jest</label>
-                          <input type="checkbox" value="Jest" id="Jest">
-                          <label for="Promises">Promises</label>
-                          <input type="checkbox" value="Promises" id="Promises">
-                          <label for="React">React</label>
-                          <input type="checkbox" value="React" id="React">
-                          <label for="SQL">SQL</label>
-                          <input type="checkbox" value="SQL" id="SQL">
-                          <label for="Python">Python</label>
-                          <input type="checkbox" value="Python" id="Python">
+                            <label for="HoFs">HoFs</label>
+                            <input type="checkbox" value="HoFs" id="HoFs">
+                            <label for="Jest">Jest</label>
+                            <input type="checkbox" value="Jest" id="Jest">
+                            <label for="Promises">Promises</label>
+                            <input type="checkbox" value="Promises" id="Promises">
+                            <label for="React">React</label>
+                            <input type="checkbox" value="React" id="React">
+                            <label for="SQL">SQL</label>
+                            <input type="checkbox" value="SQL" id="SQL">
+                            <label for="Python">Python</label>
+                            <input type="checkbox" value="Python" id="Python">
                         </div>
                     </div>
                 </div>
                 <hr>
-                <div class="avaliation">
+                <div class="rate">
                     <div id="label-rate">
                         <label for="">Como você avalia a Trybewarts?</label>
                     </div>
@@ -79,10 +81,20 @@
                     </div>
                 </div>
                 <div id="avaliation">
-                    <div><label for="textarea">Deixe seu comentário:</label></div>
+                    <div>
+                        <label class="textarea" for="textarea">Deixe seu comentário:</label>
+                    </div>
                     <textarea name="comment" id="textarea" rows="4" cols="50" maxlength="500"></textarea>
                 </div>
-                
+                <div class="agreement">
+                    <div>
+                        <label for="" id="label-infos">Você concorda com o uso das informações acima?
+                        </label>
+                    </div>
+                    <input type="checkbox" name="" id="agreement">
+                </div>
+                <button type="submit" id="submit-btn">Enviar</button>
+
             </form>
         </sectio>
         <aside>
@@ -91,4 +103,6 @@
     </main>
     <script src="script.js"></script>
 </body>
+<Footer >Direitos reservados à Trybewarts©</Footer>
+
 </html>

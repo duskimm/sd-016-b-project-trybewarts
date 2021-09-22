@@ -8,3 +8,5 @@
     } else { alert('Email ou senha inválidos.'); }
   });
 })();
+
+function acitivButon()
