@@ -4,7 +4,8 @@
 //   alert ("Email ou senha inválidos")
 // }
 const agreement = document.getElementById('agreement');
-const textArea = docuemnt.querySelect('.textarea');
+const button = document.getElementById('btn-submit');
+const submitButton = document.getElementById('submit-btn');
 
 function compare() {
   const email = document.getElementById('email').value;
@@ -16,14 +17,16 @@ function compare() {
   }
 }
 
-const button = document.getElementById('btn-submit');
-
 button.addEventListener('click', compare);
 
-function submitButton () {
-  if (agreement.checked && textArea.length => 16) {
-    
+submitButton.disabled = true;
+
+function sendButton() {
+  if (agreement.checked) {
+    submitButton.disabled = false;
+  } else {
+    submitButton.disabled = true;
   }
 }
 
-agreement.addEventListener ('click', submitButton);
+agreement.addEventListener('click', sendButton);

@@ -95,3 +95,12 @@ footer {
   position: absolute;
   width: 100%;
 }
+
+#label-rate {
+  display: flex;
+  flex-direction: row;
+}
+
+.radio {
+  display: flex;
+}
