@@ -56,7 +56,23 @@ main , #evaluation-form {
   flex-grow: 1;
 }
 
-.family-container {
+.row-container{
+  display: flex;
+}
+
+.family-container , .content-container{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input-container label {
+  flex-basis: 33%;
 }
