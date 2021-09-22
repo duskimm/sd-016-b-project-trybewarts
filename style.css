@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 .main-container, #evaluation-form {
@@ -26,3 +27,73 @@
 score {
     display: inline;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: static;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+  font-family: Times, serif;
+}
+
+.trybewarts-login {
+  align-self: center;
+  border-radius: 3px;
+  display: flex;
+}
+
+.login-menus {
+  width: 120px;
+  margin: 0 5px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+#loginButton {
+  background-color: rgb(53, 70, 187);
+  color: white;
+  border: none;
+  align-self: center;
+  margin-right: 20px;
+}
+
+#trybewarts-header-title {
+  align-self: center;
+  color: white;
+  font-size: 55px;
+  text-shadow: 2px 2px 4px black;
+}
+
+footer {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+}
+
+.forms-logo {
+  width: 30%;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  width: 100%;
+}
+>>>>>>> 2891891236d6fe75e031ccdf9162f4e74eb68fd4
