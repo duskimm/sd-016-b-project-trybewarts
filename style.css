@@ -34,6 +34,17 @@ main , #evaluation-form {
   display: flex;
 }
 
-.email-house-container{
+.email-house-container {
   display: flex;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#frontend , #backend , #fullstack {
+  display: flex;
+  flex-direction: column;
 }

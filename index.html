@@ -19,11 +19,11 @@
 </header>
     <main>
         <form id='evaluation-form'>
-            <div class="name-container">
+            <fieldset class="name-container">
                 <input type="text" id="input-name" name="name" placeholder="Nome">
                 <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome">
-            </div>
-            <div class="email-house-container">
+            </fieldset>
+            <fieldset class="email-house-container">
                 <input type="email" name="email" id="input-email" placeholder="Email">
                 <select id="house">
                     <option id='gitnoria-house' value='Gitnória'>Gitnória</option>  
@@ -31,7 +31,14 @@
                     <option id='corvinode-house' value='Corvinode'>Corvinode</option> 
                     <option id='pytherina-house' value='Pytherina'>Pytherina</option> 
                 </select>
-            </div>
+            </fieldset>
+            <fieldset>
+                <label id="label-family">Qual sua família?</label>
+                    <input type="radio" name="family" id="frontend" value="Frontend"><span>Frontend</span>
+                    <input type="radio" name="family" id="backend" value="Backend"><span>Backend</span> 
+                    <input type="radio" name="family" id="fullstack" value="FullStack"><span>FullStack</span>
+                
+            </fieldset>
         </form>
         <img src='images/trybewarts-colored.svg' id='trybewarts-forms-logo'>
     </main>
