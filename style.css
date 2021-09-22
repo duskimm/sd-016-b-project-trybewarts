@@ -25,3 +25,12 @@
   display: flex;
   align-self: center;
 }
+
+#main-formulario {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
