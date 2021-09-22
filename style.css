@@ -1,25 +1,33 @@
-#evaluation-form{
+#evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
 }
 
-.header{
+.header {
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
 }
 
-main{
+main {
   display: flex;
 }
 
-#trybewarts-header-title{
+#trybewarts-header-title {
   align-self: center;
 }
 
-.trybewarts-login{
+.trybewarts-login { 
   display: flex;
   align-items: center;
 }
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+
+
+
 
