@@ -60,3 +60,46 @@ body {
   align-self: center;
   font-weight: bold;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#trybewarts-forms-logo {
+    height: 500px;
+}
+
+main {
+    display: flex;
+}
+
+#evaluation-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 675px;
+}
+
+#input-name {
+    width: 49.7%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#input-lastname {
+    width: 49.7%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#input-email {
+    width: 49.7%;
+    padding: 10px;
+}
+
+#house {
+    width: 30%;
+    padding: 10px;
+}
