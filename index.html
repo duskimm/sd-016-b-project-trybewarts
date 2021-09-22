@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TrybeWarts</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -37,6 +38,7 @@
     <main>
       <form id="evaluation-form" action="#" method="GET">
         <div>
+          <h1>Formulário de Avaliação</h1>
           <div>
             <input
               type="text"
@@ -73,20 +75,38 @@
         <div class="flex-row">
           <div class="flex-column">
             <label id="label-family">Qual sua família?</label>
-            <input type="radio" name="family" value="Frontend" />Frontend
-            <input type="radio" name="family" value="Backend" />Backend
-            <input type="radio" name="family" value="FullStack" />FullStack
+            <div>
+              <input type="radio" name="family" value="Frontend" />Frontend
+            </div>
+            <div>
+              <input type="radio" name="family" value="Backend" />Backend
+            </div>
+            <div>
+              <input type="radio" name="family" value="FullStack" />FullStack
+            </div>
           </div>
           <div class="flex-column">
             <label id="label-content"
               >Qual conteúdo você está com mais vontade de aprender?
             </label>
-            <input type="checkbox" name="content" value="HoFs" />
-            <input type="checkbox" name="content" value="Jest" />
-            <input type="checkbox" name="content" value="Promises" />
-            <input type="checkbox" name="content" value="React" />
-            <input type="checkbox" name="content" value="SQL" />
-            <input type="checkbox" name="content" value="Python" />
+            <div>
+              <input type="checkbox" name="content" value="HoFs"/><label>HoFs</label>  
+            </div>
+            <div>
+              <input type="checkbox" name="content" value="Jest"/><label>Jest</label>
+            </div>
+            <div>
+              <input type="checkbox" name="content" value="Promises"/><label>Promises</label>
+            </div>
+            <div>
+              <input type="checkbox" name="content" value="React"/><label>React</label>
+            </div>
+            <div>
+              <input type="checkbox" name="content" value="SQL"/><label>SQL</label>
+            </div>
+            <div>
+              <input type="checkbox" name="content" value="Python"/><label>Python</label>
+            </div>
           </div>
         </div>
         <hr />
@@ -108,8 +128,11 @@
           <textarea
             name="textarea"
             cols="30"
-            rows="10"
+            rows="5"
             maxlength="500"
+            id='text-area'
+            onchange="document.getElementById('qualquerCoisa').value = 500 - this.value"
+            
           ></textarea>
         </div>
         <div>
@@ -130,6 +153,7 @@
         </div>
       </form>
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" />
+      <p id='counter'></p>
     </main>
     <footer>Direitos reservados à Trybewarts©</footer>
     <script src="script.js"></script>

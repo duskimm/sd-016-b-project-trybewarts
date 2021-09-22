@@ -14,3 +14,18 @@ function verifyLogin() {
 }
 
 loginButton.addEventListener('click', verifyLogin);
+
+// Contador de carácteres
+
+const contador = document.getElementById('counter');
+
+contador.innerHTML = 500;
+
+const textArea = document.getElementById('text-area');
+
+function changeContador() {
+  console.log(textArea.value.length);
+  contador.innerText = 500 - textArea.value.length;
+}
+
+textArea.addEventListener('keyup', changeContador);
