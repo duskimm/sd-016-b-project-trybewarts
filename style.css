@@ -1,8 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -10,7 +9,13 @@
   background-color: rgb(50, 167, 145)
 }
 
-.trybewarts-heafer-logo {
+.trybewarts-header-logo {
   height: 100px;
   padding: 10px;
+}
+
+.trybewarts-login {
+  display: flex;
+  flex-grow: 1;
+  align-self: center;
 }
