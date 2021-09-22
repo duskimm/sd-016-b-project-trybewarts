@@ -22,6 +22,24 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
+  flex-wrap: wrap;
+  max-height: 40px;
+}
+
+#evaluation-form input:nth-child(1) {
+  order: 1;
+}
+
+#evaluation-form input:nth-child(2) {
+  order: 3;
+}
+
+#evaluation-form input:nth-child(3) {
+  order: 2;
+}
+
+#evaluation-form select:nth-child(4) {
+  order: 4;
 }
 
 #trybewarts-forms-logo {
