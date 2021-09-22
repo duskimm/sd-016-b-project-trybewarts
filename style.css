@@ -22,7 +22,7 @@ html {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .mainContent {
@@ -39,7 +39,7 @@ html {
 }
 
 #input-name {
-  width: 40%; 
+  width: 40%;
 }
 
 #input-lastname {
@@ -47,10 +47,14 @@ html {
 }
 
 #house {
-  width: 40%; 
+  width: 40%;
   float: right;
 }
 
 #input-email {
   width: 40%;
+}
+
+.levels input{
+  margin-left: 15px;
 }
