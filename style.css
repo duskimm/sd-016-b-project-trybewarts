@@ -54,10 +54,13 @@ main {
   flex-direction: column;
   width: 675px;
 }
-#form-label-family{
-    display: flex;
-    flex-direction: column;
+
+#form-label-content,
+#form-label-family {
+  display: flex;
+  flex-direction: column;
 }
+
 #gitnoria-house {}
 
 #house {}
@@ -67,8 +70,9 @@ main {
 #input-lastname {}
 
 #input-email {}
-#label-family{
-}
+
+#label-family {}
+
 #login-email {}
 
 #login-senha {}
