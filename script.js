@@ -35,7 +35,7 @@ function labelopt(i) {
   return label;
 }
 
-function satisfactionLevel (radiobtn) {
+function satisfactionLevel(radiobtn) {
   for (let i = 1; i <= radiobtn; i += 1) {
     const radio = radioopt(i);
     const label = labelopt(i);
@@ -50,9 +50,6 @@ satisfactionLevel(10);
 const submitButton = document.getElementById('submit-btn');
 submitButton.disabled = true;
 
-const agreementCheck = document.getElementById('agreement');
-agreementCheck.addEventListener('change', enableSubmitButton);
-
 function enableSubmitButton(event) {
   if (event.target.checked) {
     submitButton.disabled = false;
@@ -60,3 +57,6 @@ function enableSubmitButton(event) {
     submitButton.disabled = true;
   }
 }
+
+const agreementCheck = document.getElementById('agreement');
+agreementCheck.addEventListener('change', enableSubmitButton);
