@@ -19,7 +19,7 @@ function concordar() {
   } else {
     checked = false;
   }
-  
+
   if (checked) {
     submitBtn.removeAttribute('disabled');
   } else {
