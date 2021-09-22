@@ -106,7 +106,7 @@ main {
 
 .flex-column {
   display: flex;
-  flex-direction: column  ;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 10px 20px;
 }

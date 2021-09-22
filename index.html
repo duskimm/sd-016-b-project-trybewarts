@@ -69,52 +69,61 @@
             </select>
           </div>
         </div>
-        <hr>
+        <hr />
         <div class="flex-row">
           <div class="flex-column">
             <label id="label-family">Qual sua família?</label>
-            <input type="radio" name="family" value="Frontend">Frontend
-            <input type="radio" name="family" value="Backend">Backend
-            <input type="radio" name="family" value="FullStack">FullStack
+            <input type="radio" name="family" value="Frontend" />Frontend
+            <input type="radio" name="family" value="Backend" />Backend
+            <input type="radio" name="family" value="FullStack" />FullStack
           </div>
           <div class="flex-column">
-            <label id="label-content">Qual conteúdo você está com mais vontade de aprender?
+            <label id="label-content"
+              >Qual conteúdo você está com mais vontade de aprender?
             </label>
-            <input type="checkbox" name="" id="" value="HoFs">
-            <input type="checkbox" name="" id="" value="Jest">
-            <input type="checkbox" name="" id="" value="Promises">
-            <input type="checkbox" name="" id="" value="React">
-            <input type="checkbox" name="" id="" value="SQL">
-            <input type="checkbox" name="" id="" value="Python">
+            <input type="checkbox" name="content" value="HoFs" />
+            <input type="checkbox" name="content" value="Jest" />
+            <input type="checkbox" name="content" value="Promises" />
+            <input type="checkbox" name="content" value="React" />
+            <input type="checkbox" name="content" value="SQL" />
+            <input type="checkbox" name="content" value="Python" />
           </div>
         </div>
-        <hr>
+        <hr />
         <div class="flex-row">
           <label id="label-rate">Como você avalia a Trybewarts?</label>
-          <input type="radio" value="1" name="rate">1
-          <input type="radio" value="2" name="rate">2
-          <input type="radio" value="3" name="rate">3
-          <input type="radio" value="4" name="rate">4
-          <input type="radio" value="5" name="rate">5
-          <input type="radio" value="6" name="rate">6
-          <input type="radio" value="7" name="rate">7
-          <input type="radio" value="8" name="rate">8
-          <input type="radio" value="9" name="rate">9
-          <input type="radio" value="10" name="rate">10 
+          <input type="radio" value="1" name="rate" />1
+          <input type="radio" value="2" name="rate" />2
+          <input type="radio" value="3" name="rate" />3
+          <input type="radio" value="4" name="rate" />4
+          <input type="radio" value="5" name="rate" />5
+          <input type="radio" value="6" name="rate" />6
+          <input type="radio" value="7" name="rate" />7
+          <input type="radio" value="8" name="rate" />8
+          <input type="radio" value="9" name="rate" />9
+          <input type="radio" value="10" name="rate" />10
         </div>
-        <div>
+        <div class="flex-column">
           <label class="textarea">Deixe seu comentário:</label>
-          <textarea name="textarea" cols="30" rows="10" maxlength="500"></textarea>
+          <textarea
+            name="textarea"
+            cols="30"
+            rows="10"
+            maxlength="500"
+          ></textarea>
         </div>
         <div>
-          <label id="label-infos">Você concorda com o uso das informações acima?</label>
-          <label for="agreement"></label><input type="checkbox" name="acordo" id="agreement">
+          <label id="label-infos"
+            >Você concorda com o uso das informações acima?</label
+          >
+          <label for="agreement"></label
+          ><input type="checkbox" name="acordo" id="agreement" required onchange="document.getElementById('submit-btn').disabled = !this.checked;"/>
         </div>
         <div>
-          <button id="submit-btn" type="submit">Enviar</button>
+          <button id="submit-btn" type="submit" disabled>Enviar</button>
         </div>
       </form>
-      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg"/>
+      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" />
     </main>
     <footer>Direitos reservados à Trybewarts©</footer>
     <script src="script.js"></script>
