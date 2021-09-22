@@ -1,6 +1,5 @@
 /* RESET CSS */
-
-html, body, div, span, figure, figcaption, h1, h2, h3, h4, h5, h6, p, a, ol, ul, li, header, main, article, footer, section, textarea {
+html , body , div , h1 , header , main , footer , section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -13,7 +12,6 @@ html, body, div, span, figure, figcaption, h1, h2, h3, h4, h5, h6, p, a, ol, ul,
 /* VARIAVEIS */
 
 /* TAG */
-
 header {
   background-color: rgb(50, 167, 145);
   display: flex;
@@ -31,14 +29,13 @@ main {
 /* #btn-entrar {} */
 
 /* #corvinode-house {} */
-
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
 }
 
-#form-label-content, #form-label-family {
+#form-label-content , #form-label-family {
   display: flex;
   flex-direction: column;
 }
@@ -76,7 +73,6 @@ main {
 /* #pytherina-house {} */
 
 /* #reactpuff-house {} */
-
 #trybewarts-forms-logo {
   height: 500px;
 }
@@ -86,7 +82,6 @@ main {
 /* CLASS */
 
 /* .checkbox-contet {} */
-
 .form-row {
   display: flex;
   flex-direction: row;
@@ -99,7 +94,6 @@ main {
 /* .textarea {} */
 
 /* .trybewarts-header-logo {} */
-
 .trybewarts-login {
   display: flex;
 }
