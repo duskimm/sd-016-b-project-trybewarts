@@ -1,3 +1,4 @@
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -5,4 +6,13 @@
 }
 .trybewarts-login {
   display: flex;
+}
+
+/* Conteúdo Principal*/
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  dis
 }
