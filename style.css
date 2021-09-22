@@ -5,4 +5,15 @@ body {
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  padding: 0 10px;
+}
+.trybewarts-header-logo {
+  height: 90px;
+}
+.trybewarts-login {
+  display: flex;
 }
