@@ -13,7 +13,6 @@ function login() {
   }
 }
 
-
 function concordar() {
   if (checked === false) {
     checked = true;
