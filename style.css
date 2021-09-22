@@ -56,14 +56,13 @@ main , #evaluation-form {
   flex-grow: 1;
 }
 
-.row-container{
+.row-container {
   display: flex;
 }
 
-.family-container , .content-container{
+.family-container , .content-container {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   flex-basis: 50%;
 }
 
