@@ -11,3 +11,28 @@ function verificaFormulario() {
 }
 
 button.addEventListener('click', verificaFormulario);
+
+const houses = [
+  'Gitnória',
+  'Reactpuff',
+  'Corvinode',
+  'Pytherina',
+];
+
+const idHouses = [
+  'gitnoria-house',
+  'reactpuff-house',
+  'corvinode-house',
+  'pytherina-house',
+];
+
+function selectHouse() {
+  const selectHouses = document.getElementById('house');
+  for (let index = 0; index < houses.length; index += 1) {
+    const optionHouse = document.createElement('option');
+    optionHouse.innerHTML = houses[index];
+    optionHouse.id = idHouses[index];
+    selectHouses.appendChild(optionHouse);
+  }
+}
+selectHouse();
