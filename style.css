@@ -18,3 +18,12 @@ html {
   display: flex;
   height: 30px;
 }
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
+
+.mainContent {
+  display: flex;
+}

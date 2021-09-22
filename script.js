@@ -7,11 +7,12 @@ function email() {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
-}
+  }
 }
 
 function loginValidate(e) {
   e.preventDefault();
   email();
 }
+
 btnSub.addEventListener('click', loginValidate);
