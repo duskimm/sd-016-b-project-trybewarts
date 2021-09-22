@@ -22,11 +22,11 @@
   </header>
   <main>
     <form id="evaluation-form" action="#" method="get">
-      <div class="div-row-container">
+      <section class="div-row-container">
         <input id="input-name" type="text" name="name" placeholder="Nome">
         <input type="text" name="last-name" id="input-lastname" placeholder="Sobrenome">
-      </div>
-      <div class="div-row-container">
+      </section>
+      <section class="div-row-container">
         <input type="email" name="email" id="input-email" placeholder="Email">
         <select name="house" id="house">
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
@@ -34,8 +34,8 @@
           <option value="Corvinode" id="corvinode-house">Corvinode</option>
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
         </select>
-      </div>
-      <div class="radio-family">
+      </section>
+      <section class="radio-family">
         <label for="family" id="label-family">Qual sua família?</label>
         <div class="div-row-container">
           <input type="radio" name="family" value="Frontend" id="frontend">
@@ -49,8 +49,8 @@
           <input type="radio" name="family" value="FullStack" id="fullStack">
           <label for="fullStack">FullStack</label>
         </div>
-      </div>
-      <div class="div-column-container">
+      </section>
+      <section class="div-column-container">
         <div>
           <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         </div>
@@ -68,7 +68,34 @@
           <input type="checkbox" value="Python" name="Python" id="Python">
           <label for="Python">Python</label>
         </div>
-      </div>
+      </section>
+      <section class="div-row-container">
+        <div>
+          <label for="rate" id="label-rate">Como você avalia a Trybewarts?</label>
+        </div>
+        <div>
+          <input type="radio" value="1" name="rate" id="rate-1">
+          <label for="rate-1">1</label>
+          <input type="radio" value="2" name="rate" id="rate-2">
+          <label for="rate-2">2</label>
+          <input type="radio" value="3" name="rate" id="rate-3">
+          <label for="rate-3">3</label>
+          <input type="radio" value="4" name="rate" id="rate-4">
+          <label for="rate-4">4</label>
+          <input type="radio" value="5" name="rate" id="rate-5">
+          <label for="rate-5">5</label>
+          <input type="radio" value="6" name="rate" id="rate-6">
+          <label for="rate-6">6</label>
+          <input type="radio" value="7" name="rate" id="rate-7">
+          <label for="rate-7">7</label>
+          <input type="radio" value="8" name="rate" id="rate-8">
+          <label for="rate-8">8</label>
+          <input type="radio" value="9" name="rate" id="rate-9">
+          <label for="rate-9">9</label>
+          <input type="radio" value="10" name="rate" id="rate-10">
+          <label for="rate-10">10</label>
+        </div>
+      </section>
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logotipo trybewarts colorido">
   </main>
