@@ -6,8 +6,22 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
 }
 
 .trybewarts-login {
   display: flex;
+}
+
+.header > .box:nth-child(1){
+  order: 1;
+}
+
+.header > .box:nth-child(2){
+  order: 3;
+}
+
+.header > .box:nth-child(3){
+  order: 2;
 }
