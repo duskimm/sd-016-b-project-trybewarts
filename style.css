@@ -103,3 +103,13 @@ main {
   width: 30%;
   padding: 10px;
 }
+
+#checkbox {
+  display: flex;
+  flex-direction: column  ;
+}
+
+hr {
+  width: 80%;
+  height: 2px;
+}
