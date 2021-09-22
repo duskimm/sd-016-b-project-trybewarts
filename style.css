@@ -4,9 +4,18 @@
   list-style: none;
 }
 
+/* Header */
 .header {
   width: 100%;
   height: 100px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: rgb(50, 167, 145);
 }
+
+/* Formulário */
+.trybewarts-login {
+  display: flex;
+}
+
