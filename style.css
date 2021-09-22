@@ -45,3 +45,12 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.class-family {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.class-family label {
+  order: 5;
+}
