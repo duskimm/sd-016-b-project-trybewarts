@@ -4,7 +4,7 @@
 }
 
 footer {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 main {
@@ -21,7 +21,7 @@ main form h1 {
   margin-left: 12px;
 }
 
-#agreement , #label-infos{
+#agreement , #label-infos {
   margin-top: 15px;
 }
 
@@ -48,7 +48,7 @@ main form h1 {
   margin-right: 5px;
 }
 
-#rate-container{
+#rate-container {
   display: flex;
   margin: 15px 0;
   justify-content: space-evenly;
@@ -58,7 +58,7 @@ main form h1 {
   display: flex;
 }
 
-#submit-btn{
+#submit-btn {
   margin-top: 20px;
 }
 
@@ -101,10 +101,11 @@ main form h1 {
   justify-content: space-between;
   margin-right: 28px;
 }
-  
+
 .container-secondSection {
   display: flex;
 }
+
 #label-family {
   display: flex;
   flex-direction: column;
@@ -122,4 +123,4 @@ hr {
 .label-choices {
   flex-wrap: wrap;
   padding-right: 20px;
-} 
+}
