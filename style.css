@@ -11,4 +11,10 @@ html {
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+}
+
+.trybewarts-login {
+  display: flex;
+  height: 30px;
 }
