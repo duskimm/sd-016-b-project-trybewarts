@@ -31,6 +31,15 @@ function addFormEvents() {
   });
 }
 
+function addAgreementEvent() {
+  const agreement = document.getElementById('agreement');
+  agreement.addEventListener('input', (evt) => {
+    const submitButton = document.getElementById('submit-btn');
+    submitButton.disabled = !evt.target.checked;
+  });
+}
+
 window.onload = () => {
   addFormEvents();
+  addAgreementEvent();
 };
