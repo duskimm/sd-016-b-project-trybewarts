@@ -14,14 +14,23 @@
   display: flex;
 }
 
+.trybewarts-login:nth-child(n) {
+  height: 35px;
+}
+
 main {
   display: flex;
+  justify-content: space-between;
 }
 
 #evaluation-form {
   display: flex;
   flex-flow: column wrap;
   width: 675px;
+  max-width: 800px;
+}
+
+.info {
   max-height: 40px;
 }
 
