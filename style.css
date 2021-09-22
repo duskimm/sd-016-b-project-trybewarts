@@ -23,7 +23,7 @@
 }
 
 #trybewarts-header-title {
-  font-size: 80px;
+  font-size: 70px;
   color: whitesmoke;
 }
 
@@ -34,4 +34,9 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
+  flex-direction: column;
+}
+
+#logo {
+  height: 500px;
 }
