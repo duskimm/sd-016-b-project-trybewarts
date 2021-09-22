@@ -6,6 +6,8 @@
 
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -90,4 +92,14 @@ main , #evaluation-form {
 
 #checkbox-id {
   display: flex;  
+}
+
+#footer {
+  background-color: #3C404A;
+  color: #D6EAF7;
+  text-align: center;
+  height: 20px;
+  /* display: flex;
+  align-items: center; */
+  margin-top: auto;
 }
