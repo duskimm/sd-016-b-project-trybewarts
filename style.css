@@ -39,3 +39,11 @@ h1 {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.side-aside {
+  justify-content: space-between;
+}
+
+.myFamily {
+  flex-direction: column;
+}
