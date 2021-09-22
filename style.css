@@ -79,3 +79,24 @@ main form h1{
   justify-content: space-between;
   margin-right: 28px;
 }
+.container-secondSection {
+  display: flex;
+}
+#label-family {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-inputs-family {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  margin: 40px;
+}
+
+.label-choices {
+  flex-wrap: wrap;
+  padding-right: 20px;
+}
