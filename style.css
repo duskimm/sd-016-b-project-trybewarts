@@ -73,3 +73,11 @@ hr {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+footer {
+  color: white;
+  padding: 20px;
+  background-color: #3C404A;
+  display: flex;
+  justify-content: center;
+}
