@@ -1,28 +1,28 @@
-.header {
-  display: flex;
-  background-color: rgb(50, 167, 145);
-  height: 10%;
-}
-
-.trybewarts-login{
-	display: flex;
-	align-items: center;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.trybewarts-login {
-  display: flex;
-}
-
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   height: 10%;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  display: flex;
+}
+
+main form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
 }
 
 /* REQUISITO 19 OK */
@@ -36,14 +36,6 @@ footer {
   text-align: center;
   font-family: Georgia, Times New Roman, Times, serif;
   font-weight: 600;
-}
-main{
-	display: flex;
-}
-main form{
-	display: flex;
-	width: 675px;
-	flex-direction: column;
 }
 
 /* Manter uma linha em branco no fim do arquivo por causa do lint */
