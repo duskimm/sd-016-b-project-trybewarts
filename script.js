@@ -8,5 +8,17 @@ function btnSignUp() {
   return alert('Email ou senha inválidos.');
 }
 
+function validateSubmit(event) {
+  const btnSubmit = document.getElementById('submit-btn');
+  if (event.target.checked === true) {
+    btnSubmit.removeAttribute('disabled');
+  } else {
+    btnSubmit.setAttribute('disabled', 'disabled');
+  }
+}
+
 const btnClick = document.getElementById('btn-login');
 btnClick.addEventListener('click', btnSignUp);
+
+const inputAgreement = document.getElementById('agreement');
+inputAgreement.addEventListener('click', validateSubmit);
