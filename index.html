@@ -16,16 +16,42 @@
 
     <h1 id="trybewarts-header-title" class="title">Trybewarts</h1>
   
-  <div id="form">
     <form action="" class="trybewarts-login">
       <input type="email" name="email" id="email" placeholder="Email">
       <input type="password" name="password" id="password" placeholder="Senha">
       <button type="submit" id="btnEntrar" preventdefaut >Entrar</button>
     </form>
-  </div>
 </header>
 
+<main>
+  <div id="formAvaliation">
+    <div id="mainTitle">
+      <h1>Formulario de Avaliação</h1>
+    </div>
+  
+  <form action="" method="post" id="evaluation-form">
+    <div id="nomeSobrNoma">
+       <input type="text" name="name" id="input-name" placeholder="Nome">
+       <input type="text" name="name" id="input-lastname" placeholder="Sobrenome">
+    </div>
+    <div>
+  <input type="email" name="email" id="input-email" placeholder="Email">
+  <label for="house">Casa:
+    <select name="" id="house">
+      <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+      <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+      <option value="Corvinode" id="corvinode-house">Corvinode</option>
+      <option value="Pytherina" id="pytherina-house">Pytherina</option>
+    </select>
+  </label>
+</div>
+</form>
+</div>
+<img src="./images/trybewarts-colored.svg" alt="trybewarts-forms-logo" id="trybewarts-forms-logo">
 
+
+
+</main>
   <script src="./src/scripts.js" ></script>
 </body>
 
