@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  display:flex;
+  display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
 }
@@ -17,4 +17,18 @@ body {
 
 .trybewarts-header-logo {
   max-width: 80px;
+}
+
+.main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
