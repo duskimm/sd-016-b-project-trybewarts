@@ -92,4 +92,44 @@ main {
   width: 250px;
   height: 30px;
   margin-left: 10px;
+  background-color: white;
+}
+
+.div-hr hr {
+  width: 620px;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#input-container {
+  display: flex;
+
+}
+
+#input-form-3 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+#input-form-3 label {
+  margin-top: 10px;
+}
+
+#sub-container {
+  margin-left: 145px;
+  margin-top: 19px;
+}
+
+#input-form-4 {
+  margin-top: 10px;
+}
+
+#input-form-4-1 {
+  margin-top: 10px;
 }

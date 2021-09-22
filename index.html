@@ -19,20 +19,45 @@
   </header>
   <main>
     <form id="evaluation-form">
-    <div id="input-form-1">
-      <input type="text" placeholder="Nome" id="input-name">
-      <input type="text" placeholder="Sobrenome" id="input-lastname">
-    </div>
-    <div id="input-form-2">
-      <input type="email" placeholder="Email" id="input-email">
-      <label>Casa:</label>
-      <select id="house">
-        <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-        <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-        <option id="corvinode-house" value="Corvinode">Corvinode</option>
-        <option id="pytherina-house" value="Pytherina">Pytherina</option>
-      </select>
-    </div>
+      <h2>Formulário de Avaliação</h2>
+      <div id="input-form-1">
+        <input type="text" placeholder="Nome" id="input-name">
+        <input type="text" placeholder="Sobrenome" id="input-lastname">
+      </div>
+      <div id="input-form-2">
+        <input type="email" placeholder="Email" id="input-email">
+        <label>Casa:</label>
+        <select id="house">
+          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+          <option id="corvinode-house" value="Corvinode">Corvinode</option>
+          <option id="pytherina-house" value="Pytherina">Pytherina</option>
+        </select>
+      </div>
+      <div class="div-hr">
+        <hr>
+      </div>
+      <div id="input-container">
+          <div id="input-form-3">
+            <label id='label-family' for="family">Qual sua família?</label>
+            <label for="family-frontend"><input id='family-frontend' type='radio'name='family' value='Frontend'> Frontend</label>
+            <label for="family-backend"><input id='family-backend' type='radio'name='family' value='Backend'> Backend</label>
+            <label for="family-fullstack"><input id='family-fullstack' type='radio'name='family' value='FullStack'> Fullstack</label> 
+          </div>
+          <div id="sub-container">
+            <label id='label-content'>Qual conteúdo você está com mais vontade de aprender?</label>
+            <div id="input-form-4">
+              <label><input type='checkbox'value='HoFs'>HoFs</label>
+              <label><input type='checkbox' value='Jest'>Jest</label>
+              <label><input type='checkbox' value='Promises'>Promises</label>
+            </div>
+            <div id="input-form-4-1">
+              <label><input type='checkbox' value='React'>React</label>
+              <label><input type='checkbox' value='SQL'>SQL</label>
+              <label><input type='checkbox' value='Python'>Python</label>
+            </div>
+        </div>
+      </div> 
     </form>
     <img src="images/trybewarts-colored.svg" alt="Logotipo" id="trybewarts-forms-logo">
   </main>
