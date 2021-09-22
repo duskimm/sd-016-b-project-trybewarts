@@ -1,0 +1,28 @@
+
+
+.main-container, #evaluation-form {
+    display: flex;
+}
+
+#evaluation-form {
+    width: 675px;
+    flex-direction: column;
+}
+
+.inputRadio {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputCheckbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputScore {
+    display: inline;
+}
+
+score {
+    display: inline;
+}
