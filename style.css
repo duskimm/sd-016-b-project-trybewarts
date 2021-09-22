@@ -1,9 +1,26 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  width: 100%;
 }
 
 .trybewarts-header-logo {
   width: 50px;
   height: 50px;
 }
+
+.trybewarts-login {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.button {
+  border-radius: 20%;
+}
+
+#trybewarts-header-title {
+  text-align: center;
+}
+
