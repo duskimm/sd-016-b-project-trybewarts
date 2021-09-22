@@ -9,8 +9,6 @@ body {
   align-items: center;
 }
 
-
-
 .trybewarts-login {
   border: solid 1px red;
   display: flex;
@@ -21,7 +19,6 @@ body {
 main {
   border: solid 1px black;
   display: flex;
-  /* justify-content: space-between; */
 }
 
 #evaluation-form {

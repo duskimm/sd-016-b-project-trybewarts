@@ -1,8 +1,8 @@
-let emailInput = document.querySelector('#email');
-let passwordInput = document.querySelector('#password');
-let loginButton = document.querySelector('#login-button');
-let agreement = document.querySelector('#agreement')
-
+const emailInput = document.querySelector('#email');
+const passwordInput = document.querySelector('#password');
+const loginButton = document.querySelector('#login-button');
+const agreement = document.querySelector('#agreement');
+const submitBtn = document.getElementById('submit-btn');
 
 loginButton.addEventListener('click', () => {
   if (emailInput.value === 'tryber@teste.com' || passwordInput.value === '123456') {
@@ -13,9 +13,9 @@ loginButton.addEventListener('click', () => {
 });
 
 agreement.addEventListener('change', () => {
-  if (document.getElementById('submit-btn').disabled === false) {
-    document.getElementById('submit-btn').disabled = true;
+  if (submitBtn.disabled === false) {
+    submitBtn.disabled = true;
   } else {
-    document.getElementById('submit-btn').disabled = false;
+    submitBtn.disabled = false;
   }
 });
