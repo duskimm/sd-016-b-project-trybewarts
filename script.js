@@ -14,3 +14,17 @@ function validarInput() {
 }
 
 botaoEntrar.addEventListener('click', validarInput);
+
+// Requisito 18
+// dica tirada do site:
+// https://thisinterestsme.com/disable-button-checkbox-checked/
+const checkbox = document.querySelector('#agreement');
+const botaoEnviar = document.querySelector('#submit-btn');
+function checkEnable() {
+  if (checkbox.checked) {
+    botaoEnviar.disable = false;
+  } else {
+    botaoEnviar.disable = true;
+  }
+} 
+checkbox.addEventListener('click', checkEnable);
