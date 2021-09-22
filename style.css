@@ -6,6 +6,7 @@
 
 .trybewarts-login {
   display: flex;
+  align-items: flex-start;
 }
 
 #trybewarts-header-title {
@@ -20,8 +21,7 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
 }
 
 #trybewarts-forms-logo {
