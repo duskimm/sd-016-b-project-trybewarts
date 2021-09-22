@@ -35,9 +35,8 @@ main {
 
 .cadastro1 {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border: 1px solid pink;
+  flex-flow: row wrap;
+  
 }
 
 #trybewarts-forms-logo {
@@ -61,7 +60,7 @@ main {
   border: 1px solid blue;
 }
 
-.linha2{
+.linha2 {
   display: flex;
   flex-direction: column;
 }
@@ -70,4 +69,10 @@ main {
   display: flex;
 }
 
+.cadastro3 {
+  border: 1px solid pink;
+}
 
+.cadastro4 {
+
+}
