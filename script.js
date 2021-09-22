@@ -12,3 +12,36 @@ function validateCredentials(event) {
 
 const loginButton = document.querySelector('.trybewarts-login button');
 loginButton.addEventListener('click', validateCredentials);
+
+// Requisito 14:
+
+const divrate = document.getElementById('divrate');
+
+function radioopt(i) {
+  const radio = document.createElement('input');
+  radio.id = `rate${[i]}`;
+  radio.value = [i];
+  radio.name = 'rate';
+  radio.type = 'radio';
+
+  return radio;
+}
+
+function labelopt(i) {
+  const label = document.createElement('label');
+  label.innerText = [i];
+  label.htmlFor = `rate${[i]}`;
+
+  return label;
+}
+
+function satisfactionLevel (radiobtn) {
+  for (let i = 1; i <= radiobtn; i += 1) {
+    const radio = radioopt(i);
+    const label = labelopt(i);
+    divrate.appendChild(radio);
+    divrate.appendChild(label);
+  }
+}
+
+satisfactionLevel(10);
