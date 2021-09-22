@@ -1,17 +1,16 @@
 /// Verificar se o login está correto
-let loginButton = document.getElementById('login-button');
+const loginButton = document.getElementById("login-button");
 
-function verifyLogin(event) {
-  let password = document.getElementById('password').value;
+function verifyLogin() {
+  const password = document.getElementById("password").value;
   console.log(password);
-  let email = document.getElementById('email').value;
+  const email = document.getElementById("email").value;
   console.log(email);
-  if (password != '123456' || email != 'tryber@teste.com') {
-    alert('Email ou senha inválidos.');
-  }
-  else {
-    alert('Olá, Tryber!')
+  if (password === "123456" && email === "tryber@teste.com") {
+    alert("Olá, Tryber!");
+  } else {
+    alert("Email ou senha inválidos.");
   }
 }
 
-loginButton.addEventListener('click',verifyLogin);
+loginButton.addEventListener("click", verifyLogin);
