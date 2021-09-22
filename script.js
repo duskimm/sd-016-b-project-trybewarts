@@ -18,3 +18,13 @@ function verifyData(event) {
 }
 
 btnSubmit.addEventListener('click', verifyData);
+
+
+function populateRateContainer() {
+  const container = document.getElementById('rate-container');
+
+  for (let i = 1; i <= 10; i += 1) {
+    const labelContainer = document.createElement('label');
+    labelContainer.setAttribute('for' , i)
+  }
+}
