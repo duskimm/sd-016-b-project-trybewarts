@@ -1,0 +1,24 @@
+/* RESET GERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables */
+:root {
+  --header-color: rgba(50, 167, 145)
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  font-size: 100%;
+}
+
+/* SETUP HEADER */
+.header {
+  display: flex;
+  background-color: var(--header-color);
+  width: 100%;
+  height: 50px;
+}
