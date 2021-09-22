@@ -7,5 +7,4 @@
       alert('Olá, Tryber!');
     } else { alert('Email ou senha inválidos.'); }
   });
-})
-();
+})();

@@ -18,6 +18,7 @@
 
 main {
   display: flex;
+  justify-content: space-between;
 }
 
 #evaluation-form {
@@ -45,4 +46,9 @@ main {
   width: 169px;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.avaliation {
+  display: flex;
+  flex-direction: column;
 }
