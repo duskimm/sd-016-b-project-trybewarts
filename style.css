@@ -104,12 +104,19 @@ main {
   padding: 10px;
 }
 
-#checkbox {
+.flex-column {
   display: flex;
   flex-direction: column  ;
+  flex-wrap: wrap;
+  margin: 10px 20px;
 }
 
 hr {
   width: 80%;
   height: 2px;
+}
+
+#qualquerCoisa {
+  display: flex;
+  flex-direction: row;
 }
