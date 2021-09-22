@@ -1,4 +1,9 @@
-.flexbox{
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.flexbox {
   display: flex;
 }
 
