@@ -5,7 +5,31 @@
 
 .header {
   display: flex;
+  justify-content: space-between;
   height: 70px;
   padding: 3px;
   background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.form-login {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+button {
+  border: none;
+  padding: 4px;
+  border-radius: 3px;
+  background-color: rgb(228, 225, 225);
+}
+
+input {
+  padding: 3px;
+  border: solid rgb(161, 160, 160) 1px;
+  border-radius: 3px;
+  background-color: rgb(251, 251, 251);
 }
