@@ -52,5 +52,16 @@ main {
 }
 
 #evaluation-form input {
+  margin: 5px;
+  width: 40%;
   padding: 20px;
+}
+
+#evaluation-form select {
+padding: 20px;
+
+}
+
+hr {
+  margin-top: 30px;
 }
