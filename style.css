@@ -45,6 +45,8 @@ main {
 }
 
 /* ID */
+#agreement{}
+
 #btn-entrar {}
 
 #corvinode-house {}
@@ -61,6 +63,12 @@ main {
   flex-direction: column;
 }
 
+#form-label-infos {}
+
+#form-label-rate {}
+
+#form-label-textarea {}
+
 #gitnoria-house {}
 
 #house {}
@@ -71,7 +79,15 @@ main {
 
 #input-email {}
 
+#input-rate {}
+
+#label-content {}
+
 #label-family {}
+
+#label-infos {}
+
+#label-rate {}
 
 #login-email {}
 
@@ -88,12 +104,18 @@ main {
 #trybewarts-header-title {}
 
 /* CLASS */
+.checkbox-contet {}
+
 .form-row {
   display: flex;
   flex-direction: row;
 }
 
 .header {}
+
+.input-family {}
+
+.textarea {}
 
 .trybewarts-header-logo {}
 
