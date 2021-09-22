@@ -1,3 +1,4 @@
+//Login validation//
 document.getElementById('loginButton').addEventListener('click', () => {
   const email = document.getElementById('email').value;
   const senha = document.getElementById('senha').value;
@@ -9,4 +10,28 @@ document.getElementById('loginButton').addEventListener('click', () => {
     alert('Login ou senha inválidos.');
     }
   });
-  
+
+//18
+const submitBtn = document.querySelector('#submit-btn');
+submitBtn.disabled = true;
+const agree = document.querySelector('#agreement');
+agree.addEventListener('click', () => {
+  if (agree.checked) {
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.disabled = true;
+  }
+});
+
+//20
+const tArea = document.querySelector('#textarea');
+const counter = document.querySelector('#counter');
+counter.innerHTML = '500';
+
+function countLetters() {
+  const comments = tArea.value.length;
+  const maxLength = tArea.getAttribute('maxLength');
+  const currentLength = maxLength - comments;
+  counter.innerHTML = currentLength;
+}
+tArea.addEventListener('input', countLetters);

@@ -34,7 +34,7 @@ body {
 }
 
 #loginButton {
-  background-color: rgb(82, 67, 131);
+  background-color: rgb(53, 70, 187);
   color: white;
   border: none;
   align-self: center;
@@ -44,4 +44,25 @@ body {
 #trybewarts-header-title {
   align-self: center;
   color: white;
+  font-size: 55px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+footer {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+}
+
+.forms-logo {
+  width: 30%;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  width: 100%;
 }
