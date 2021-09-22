@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-.header {
-  display: flex;
-  background-color: rgb(50, 167, 145);
-  height: 10%;
-}
-
-.trybewarts-login{
-	display: flex;
-}
-
-=======
->>>>>>> 5a10428b71339c4f1af88c610f4005512433fb06
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.trybewarts-login{
+	display: flex;
 }
 
 .header {
