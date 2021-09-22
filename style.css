@@ -9,11 +9,11 @@
 }
 
 main {
-    display: flex;
+  display: flex;
 }
 
 #evaluation-form {
-    display: flex;
-    width: 675px;
-    flex-direction: column
+  display: flex;
+  width: 675px;
+  flex-direction: column;
 }
