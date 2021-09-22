@@ -30,10 +30,15 @@
 }
 
 #house {
-  width: 100%;
+  width: 50%;
 }
 
-.yourFamily {
+#email-form {
+  width: 50%;
+}
+
+.collum {
   display: flex;
   flex-direction: column;
 }
+
