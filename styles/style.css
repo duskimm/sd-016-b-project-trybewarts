@@ -40,3 +40,15 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.container-rate {
+  display: flex;
+}
+
+.family-content {
+  display: flex;
+}
+
+.container-content div {
+  width: 35%;
+}
