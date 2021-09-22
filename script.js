@@ -60,3 +60,14 @@ function enableSubmitButton(event) {
 
 const agreementCheck = document.getElementById('agreement');
 agreementCheck.addEventListener('change', enableSubmitButton);
+
+// Requisito 20
+const counter = document.getElementById('counter');
+counter.innerText = '500';
+
+function updateCounter(event) {
+  counter.innerText = 500 - event.target.value.length;
+}
+
+const textarea = document.getElementById('textarea');
+textarea.addEventListener('keyup', updateCounter);
