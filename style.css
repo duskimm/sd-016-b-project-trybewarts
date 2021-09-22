@@ -54,23 +54,6 @@ main {
   flex-direction: column;
 }
 
-#line1 input {
-  margin: 5px;
-  width: 40%;
-  padding: 20px;
-}
-
-#line2 input {
-  margin: 5px;
-  width: 40%;
-  padding: 20px;
-}
-
-#evaluation-form select {
-  display: flex;
-  padding: 20px;
-
-}
 
 hr {
   margin-top: 30px;
@@ -81,10 +64,6 @@ hr {
   height: 500px;
 }
 
-#line2 {
-  display: flex;
-  align-items: center;
-}
 
 #label-family {
   display: flex;
@@ -97,4 +76,24 @@ footer {
   background-color: #3C404A;
   display: flex;
   justify-content: center;
+}
+
+.house-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.information-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start
+}
+
+.information-container input,select {
+  padding: 20px;
+  flex-basis: 30%;
+  margin: 10px;
+
 }
