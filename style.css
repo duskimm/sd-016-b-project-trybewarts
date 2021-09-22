@@ -31,3 +31,8 @@ main {
 .container {
   display: flex;
 }
+
+#label-family {
+  display: flex;
+  flex-flow: column wrap;
+}
