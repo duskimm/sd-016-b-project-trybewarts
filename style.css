@@ -38,3 +38,12 @@
 #trybewarts-forms-logo {
       height: 500px;
 }
+
+.box-wrap-form{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
