@@ -1,7 +1,7 @@
 const user = {
   email: 'tryber@teste.com',
   password: '123456',
-}
+};
 
 function validateUser() {
   document.querySelector('#btn-login').addEventListener('click', () => {
@@ -20,7 +20,7 @@ window.onload = () => {
    * Adiciona animação para o placeholder do input desaparecer sempre que for focado;
    */
   const inputELements = document.getElementsByTagName('input');
-  Object.values(inputELements).forEach((element) => { //Itera os elementos como objeto e não como array;
+  Object.values(inputELements).forEach((element) => { // Itera os elementos como objeto e não como array;
     const pholder = element.placeholder; // Armazena o elemento antigo;
     element.addEventListener('focus', () => { // Remove o placeholder do elemento quando focado;
       element.placeholder = '';
@@ -32,5 +32,3 @@ window.onload = () => {
 
   validateUser();
 };
-
-// requirement 3.7.1 e 3.7.1
