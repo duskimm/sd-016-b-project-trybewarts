@@ -11,19 +11,24 @@ body {
   background-size: cover;
   padding: 0 10px;
 }
+
 .trybewarts-header-logo {
   height: 90px;
 }
+
 .trybewarts-login {
   display: flex;
 }
-main, #evaluation-form{
+
+main , #evaluation-form {
   display: flex;
 }
-#evaluation-form{
+
+#evaluation-form {
   width: 675px;
   flex-direction: column;
 }
-#trybewarts-forms-logo{
+
+#trybewarts-forms-logo {
   height: 500px;
 }
