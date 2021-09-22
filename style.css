@@ -22,3 +22,11 @@
   width: 675px;
   flex-direction: column;
 }
+
+.fullname {
+  display: flex;
+}
+
+.email-and-house {
+  display: flex;
+}
