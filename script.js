@@ -6,9 +6,9 @@ const buttonEnviar = document.getElementById('submit-btn');
 
 // Função valida email e senha, e retorna um alert
 function menssagem() {
-  let valueEmail = inputEmail.value;
+  const valueEmail = inputEmail.value;
   console.log(valueEmail);
-  let valueSenha = inputSenha.value;
+  const valueSenha = inputSenha.value;
   console.log(valueSenha);
   if (valueEmail === 'tryber@teste.com' && valueSenha === '123456') {
     alert('Olá, Tryber!');

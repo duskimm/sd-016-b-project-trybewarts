@@ -1,27 +1,6 @@
 /* RESET CSS */
-html,
-body,
-div,
-span,
-figure,
-figcaption,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-ol,
-ul,
-li,
-header,
-main,
-article,
-footer,
-section,
-textarea {
+
+html, body, div, span, figure, figcaption, h1, h2, h3, h4, h5, h6, p, a, ol, ul, li, header, main, article, footer, section, textarea {
   margin: 0;
   padding: 0;
   border: 0;
@@ -34,6 +13,7 @@ textarea {
 /* VARIAVEIS */
 
 /* TAG */
+
 header {
   background-color: rgb(50, 167, 145);
   display: flex;
@@ -45,11 +25,12 @@ main {
 }
 
 /* ID */
-#agreement{}
 
-#btn-entrar {}
+/* #agreement{} */
 
-#corvinode-house {}
+/* #btn-entrar {} */
+
+/* #corvinode-house {} */
 
 #evaluation-form {
   display: flex;
@@ -57,67 +38,67 @@ main {
   width: 675px;
 }
 
-#form-label-content,
-#form-label-family {
+#form-label-content, #form-label-family {
   display: flex;
   flex-direction: column;
 }
 
-#form-label-infos {}
+/* #form-label-infos {} */
 
-#form-label-rate {}
+/* #form-label-rate {} */
 
-#form-label-textarea {}
+/* #form-label-textarea {} */
 
-#gitnoria-house {}
+/* #gitnoria-house {} */
 
-#house {}
+/* #house {} */
 
-#input-name {}
+/* #input-name {} */
 
-#input-lastname {}
+/* #input-lastname {} */
 
-#input-email {}
+/* #input-email {} */
 
-#input-rate {}
+/* #input-rate {} */
 
-#label-content {}
+/* #label-content {} */
 
-#label-family {}
+/* #label-family {} */
 
-#label-infos {}
+/* #label-infos {} */
 
-#label-rate {}
+/* #label-rate {} */
 
-#login-email {}
+/* #login-email {} */
 
-#login-senha {}
+/* #login-senha {} */
 
-#pytherina-house {}
+/* #pytherina-house {} */
 
-#reactpuff-house {}
+/* #reactpuff-house {} */
 
 #trybewarts-forms-logo {
   height: 500px;
 }
 
-#trybewarts-header-title {}
+/* #trybewarts-header-title {} */
 
 /* CLASS */
-.checkbox-contet {}
+
+/* .checkbox-contet {} */
 
 .form-row {
   display: flex;
   flex-direction: row;
 }
 
-.header {}
+/* .header {} */
 
-.input-family {}
+/* .input-family {} */
 
-.textarea {}
+/* .textarea {} */
 
-.trybewarts-header-logo {}
+/* .trybewarts-header-logo {} */
 
 .trybewarts-login {
   display: flex;
