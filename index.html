@@ -9,13 +9,13 @@
 </head>
 <body>
   <header class="header">
-    <img src="images/trybewarts-header-logo.svg" alt="trybewarts logo">
-    <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="trybewarts logo">
     <form action="#" method="get" class="trybewarts-login">
-      <label for="email"><input type="text" name="email" id="email" placeholder="email" onfocus="this.placeholder=''" onblur="this.placeholder='email'"></label>
-      <label for="senha"><input type="password" name="senha" id="senha" placeholder="senha" onfocus="this.placeholder=''" onblur="this.placeholder='senha'"></label>
+      <label for="email"><input type="text" name="email" id="email" placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'"></label>
+      <label for="password"><input type="password" name="password" id="password" placeholder="Senha" onfocus="this.placeholder=''" onblur="this.placeholder='Senha'"></label>
       <button type="submit">Entrar</button>
     </form>
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
   </header>
 
   <main>
@@ -41,18 +41,16 @@
             <h3 id="label-family">Qual sua família?</h3>
             <label for=""><input type="radio" name="family" value="Frontend">Frontend</label>
             <label for=""><input type="radio" name="family" value="Backend">Backend</label>
-            <label for=""><input type="radio" name="family" value="Fullstack">Fullstack</label>
+            <label for=""><input type="radio" name="family" value="FullStack">FullStack</label>
           </div>
           <div class="container-content">
             <h3 id="label-content">Qual o conteúdo você está com mais vontade de aprender?</h3>
-            <div>
-              <label for=""><input type="checkbox" name="" id="" value="Hofs">Hofs</label>
+              <label for=""><input type="checkbox" name="" id="" value="HoFs">HoFs</label>
               <label for=""><input type="checkbox" name="" id="" value="Jest">Jest</label>
               <label for=""><input type="checkbox" name="" id="" value="Promises">Promises</label>
               <label for=""><input type="checkbox" name="" id="" value="React">React</label>
               <label for=""><input type="checkbox" name="" id="" value="SQL">SQL</label>
               <label for=""><input type="checkbox" name="" id="" value="Python">Python</label>
-            </div>
           </div>
         </div>
       </div>
@@ -72,8 +70,12 @@
       <div>
         <label class="textarea" for="textarea">Deixe seu comentário:<textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea></label>
       </div>
-      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="colored image">
+      <div class="container-agreement">
+        <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+        <input type="checkbox" name="" id="agreement">
+      </div>
     </form>
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="colored image">
   </main>
 </body>
 </html>

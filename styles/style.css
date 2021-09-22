@@ -12,6 +12,7 @@
 
 .trybewarts-login {
   display: flex;
+  order: 2;
 }
 
 main {
@@ -26,6 +27,15 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#trybewarts-header-title {
+  align-self: center;
+  order: 1;
+}
+
+.trybewarts-header-logo {
+  order: 0;
 }
 
 .user-names {
@@ -51,4 +61,14 @@ main {
 
 .container-content div {
   width: 35%;
+}
+
+.container-agreement {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+main {
+  display: flex;
 }
