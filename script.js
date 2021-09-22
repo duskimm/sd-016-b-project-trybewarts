@@ -3,13 +3,9 @@ let passwordInput = document.querySelector('#password');
 let loginButton = document.querySelector('#login-button');
 
 loginButton.addEventListener('click', () => {
-
-  if (emailInput.value === 'tryber@teste.com' && passwordInput.value === '123456') {
-    console.log("Olá, Tryber!");
+  if (emailInput.value === 'tryber@teste.com' || passwordInput.value === '123456') {
+    alert('Olá, Tryber!');
   } else {
-    alert('Email ou senha inválidos.')
+    alert('Email ou senha inválidos.');
   }
-
-
-
 });

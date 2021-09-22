@@ -20,3 +20,12 @@ body {
   justify-content: space-between;
   flex-direction: row-reverse;
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
