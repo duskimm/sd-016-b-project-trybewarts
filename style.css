@@ -11,6 +11,7 @@
 
 main {
   display: flex;
+  justify-content: space-evenly;
 }
 
 #evaluation-form {
@@ -23,6 +24,19 @@ main {
   height: 500px;
 }
 
-.div-flex-container {
+.div-row-container {
   display: flex;
+}
+
+.radio-family {
+  flex-direction: column;
+}
+
+.borda {
+  border: 1px solid red;
+}
+
+.div-column-container {
+  display: flex;
+  flex-direction: column;
 }
