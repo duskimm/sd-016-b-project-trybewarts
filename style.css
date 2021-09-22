@@ -15,10 +15,14 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.radios {
+  display: flex;
+  flex-direction: column;
 }
