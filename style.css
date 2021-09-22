@@ -4,8 +4,9 @@
     background-color: rgb(50, 167, 145);
     height: 75px;
     color: white;
-    font-size: 32px;
     font-weight: bold;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
+
+/* REQUISITO 3 */
