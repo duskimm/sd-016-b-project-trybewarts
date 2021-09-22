@@ -7,9 +7,20 @@
 
 .divHeader {
   display: flex;
+  align-items: center;
   justify-content: space-between; 
   background-color: rgb(50, 167, 145);
   height: 5rem;
+  padding: 0.4rem;
+}
+
+.divHeader img {
+  padding: 0.6rem;
+  margin: 0.4rem;
+}
+.divHeader input {
+  padding: 0.6rem;
+  margin-right: 0.4rem;
 }
 
 .trybewarts-header-logo {
