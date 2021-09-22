@@ -1,6 +1,8 @@
 const email = document.querySelector('.email');
 const password = document.querySelector('.password');
 const loginButton = document.querySelector('.loginbtt');
+const check = document.getElementById('agreement');
+const botaoEnviar = document.getElementById('submit-btn');
 
 function login(event) {
   event.preventDefault();
@@ -12,3 +14,13 @@ function login(event) {
 }
 
 loginButton.addEventListener('click', login);
+
+botaoEnviar.disabled = true;
+
+function itsChecked() {
+  if (check.checked === true) {
+    botaoEnviar.disabled = false;
+  } else botaoEnviar.disabled = true;
+}
+
+check.addEventListener('click', itsChecked);
