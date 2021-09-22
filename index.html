@@ -29,17 +29,49 @@
     </header>
     <main>
       <form action="" id="evaluation-form">
-        <input type="text" id="input-name" placeholder="Nome"/>
-        <input type="text" id="input-lastname" placeholder="Sobrenome"/>
-        <input type="text" id="input-email" placeholder="Email"/>
+        <div class="form-container">
+          <input type="text" id="input-name" placeholder="Nome" />
+          <input type="text" id="input-lastname" placeholder="Sobrenome" />
+          <input type="text" id="input-email" placeholder="Email" />
 
-        <select name="house" id="house">
-          <option value="Gitnória">Gitnória</option>
-          <option value="Reactpuff">Reactpuff</option>
-          <option value="Corvinode">Corvinode</option>
-          <option value="Pytherina">Pytherina</option>
+          <select name="house" id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </div>
 
-        </select>
+        <label for="test" id="label-family">Qual sua família?</label>
+
+        <div id="test">
+          <label for="frontend"
+            >Frontend
+            <input type="radio" name="family" id="frontend" value="Frontend" />
+          </label>
+
+          <label for="backend"
+            >Backend
+            <input type="radio" name="family" id="backend" value="Backend" />
+          </label>
+
+          <label for="fullstack"
+            >FullStack
+            <input
+              type="radio"
+              name="family"
+              id="fullstack"
+              value="FullStack"
+            />
+          </label>
+        </div>
+        <label for="" id="label-family"> Qual sua família? </label>
+        <input type="checkbox" name="" id="" />
+        <input type="checkbox" name="" id="" />
+        <input type="checkbox" name="" id="" />
+        <input type="checkbox" name="" id="" />
+        <input type="checkbox" name="" id="" />
+        <input type="checkbox" name="" id="" />
       </form>
       <img
         src="images/trybewarts-colored.svg"

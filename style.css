@@ -41,7 +41,22 @@ main {
   width: 675px;
 }
 
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#evaluation-form input, select {
+  flex-basis: 50%;
+  /* flex-direction: row; */
+}
+
 /* setup img */
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#test {
+  display: flex;
+  flex-direction: column;
 }
