@@ -11,12 +11,13 @@
     <header class="header">
         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
         <h1 id="trybewarts-header-title">Trybewarts</h1>
-        <form class="trybewarts-login">
-            <input name="email" placeholder="Email">
-            <input name="password" placeholder="Senha">
+        <form class="trybewarts-login" class="js-form">
+            <input type="email" name="email" data-validate-field="email" placeholder="Email">
+            <input type="password" name="password" data-validate-field="senha" placeholder="Senha">
             <button>Entrar</button>
         </form>
     </header>
-    <script src="script.js"></script>
-  </body>
+    <script src="script.js" type="module"></script>
+    <script src="./node_modules/just-validate/dist/js/just-validate.min.js"></script>
+</body>
 </html>
