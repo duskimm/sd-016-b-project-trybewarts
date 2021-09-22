@@ -62,3 +62,7 @@ main {
 #input-nome-container {
   display: flex;
 }
+
+#input-email-container {
+  display: flex;
+}
