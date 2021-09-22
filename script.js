@@ -6,28 +6,17 @@ const agreeCheckbox = document.getElementById('agreement');
 
 const logInFeedback = () => {
   if (emailInput.value !== 'tryber@teste.com' || passwordInput.value !== '123456') {
-    alert('Email ou senha inválidos');
+    alert('Email ou senha inválidos.');
   } else {
-    alert('Olá Tryber!');
+    alert('Olá, Tryber!');
   }
 };
 loginButton.addEventListener('click', logInFeedback);
 
-// let buttonDisable = () => {
-//     if (agreeCheckbox.checked === true) {
-//         submitButton.disabled = false
-//     } else {
-//         submitButton.disabled = true;
-//     }
-// }
-
-// buttonDisable();
-
-const buttonDisable = () => {
-  if (agreeCheckbox.checked == false) {
-    submitButton.disabled = true;
-  } else {
-    submitButton.disabled = false;
-  }
-};
-buttonDisable();
+agreeCheckbox.addEventListener('click', event=> {
+    if (event.target.checked == true) {
+        submitButton.disabled = false;
+    } else {
+        submitButton.disabled = true;
+    }
+})
