@@ -116,7 +116,7 @@ hr {
   height: 2px;
 }
 
-#qualquerCoisa {
+.flex-row {
   display: flex;
   flex-direction: row;
 }
