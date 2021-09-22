@@ -25,9 +25,9 @@ body {
   /* height: 50px; */
 }
 
-.tribewarts-login {
+.trybewarts-login {
   display: flex;
-  justify-content: end;
+  /* justify-content: end; */
 }
 
 /* SETUP MAIN */
@@ -39,4 +39,9 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
+}
+
+/* setup img */
+#trybewarts-forms-logo {
+  height: 500px;
 }
