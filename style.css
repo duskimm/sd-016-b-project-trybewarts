@@ -5,6 +5,9 @@
 	font-family: Lato, sans-serif;
 }
 
+body {
+	background-color:rgb(237, 237, 237);
+}
 
 .header {
   display: flex;
@@ -14,7 +17,7 @@
 	align-items: center;
 }
 
-#input-container {
+#trybewarts-login {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -55,10 +58,12 @@ h1 {
 
 main {
 	display: flex;
+	justify-content: center;
 }
 
 #evaluation-form {
 	display: flex;
+	margin-top: 45px;
 	width: 675px;
 	flex-direction: column;
 }
@@ -67,6 +72,59 @@ main {
 	height: 500px;
 }
 
+.form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
 .full-name {
 	display: flex;
+	flex-grow: 1;
+	flex-basis: 100%;
+}
+
+.email-and-house {
+	display: flex;
+	flex-grow: 1;
+	flex-basis: 100%;
+}
+
+.family-and-content {
+	display: flex;
+	height: 200px;
+}
+
+.family-ratio {
+	display: flex;
+	flex-direction: column;
+}
+
+.content-ratio {
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+}
+
+.evaluation-and-comment {
+	display: flex;
+	flex-direction: column;
+}
+
+.evaluation {
+	display: flex;
+}
+
+footer {
+	display: flex;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:50px;
+	width:100%;
+	background-color:rgb(50, 167, 145);
+	justify-content: center;
+	align-items: center;
+	border-top: white 2px solid;
+	color: white;
 }
