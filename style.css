@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial;
+  font-family: "Helvetica Neue", Helvetica, Arial;
   font-size: 100%;
 }
 
@@ -22,12 +22,10 @@ body {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  /* height: 50px; */
 }
 
 .trybewarts-login {
   display: flex;
-  /* justify-content: end; */
 }
 
 /* SETUP MAIN */
@@ -46,9 +44,9 @@ main {
   flex-wrap: wrap;
 }
 
-#evaluation-form input, select {
+#evaluation-form input,
+select {
   flex-basis: 50%;
-  /* flex-direction: row; */
 }
 
 /* setup img */
@@ -56,7 +54,12 @@ main {
   height: 500px;
 }
 
-#family, #label-content {
+#family,
+#label-content {
   display: flex;
   flex-direction: column;
+}
+
+.test {
+  display: flex;
 }
