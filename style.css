@@ -16,3 +16,8 @@ main {
   display: flex; /* requisitos 5 */
   width: 675px; /* requisitos 5 */
 }
+
+#trybewarts-forms-logo {
+  height: 500px; /* requisitos 7 */
+  display: flex; /* requisitos 7 */
+}
