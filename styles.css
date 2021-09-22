@@ -10,4 +10,16 @@
   box-sizing: border-box;
 }
 
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 0.5em;
+  background-color: rgb(60, 64, 74);
+  color: aliceblue;
+  text-align: center;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-weight: 600;
+}
+
 /* Manter uma linha em branco no fim do arquivo por causa do lint */
