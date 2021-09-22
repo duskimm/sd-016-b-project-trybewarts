@@ -1,5 +1,10 @@
 const loginButton = document.getElementById('login');
+const agreeCheck = document.getElementById('agreement');
+const buttonContainer = document.querySelector('.button-container');
+const createSubmit = document.createElement('button');
+const textAreaInput = document.getElementById('textarea');
 
+// Evento para verificar email e senha.
 loginButton.addEventListener('click', (event) => {
   event.preventDefault();
   const email = document.getElementById('email').value;
@@ -12,11 +17,7 @@ loginButton.addEventListener('click', (event) => {
   }
 });
 
-const agreeCheck = document.getElementById('agreement');
-
 // Criando botão Enviar.
-const buttonContainer = document.querySelector('.button-container');
-const createSubmit = document.createElement('button');
 createSubmit.id = 'submit-btn';
 createSubmit.type = 'submit';
 createSubmit.innerText = 'Enviar';
@@ -31,3 +32,13 @@ agreeCheck.addEventListener('click', () => {
     createSubmit.setAttribute('disabled', true);
   }
 });
+
+// Função para contar os caracteres
+function textAreaCounter() {
+  const textArea = document.getElementById('textarea').value;
+  const contador = document.getElementById('counter');
+  contador.innerText = 500 - textArea.length;
+}
+
+// Evento para contar os caracteres em tempo real
+textAreaInput.addEventListener('input', textAreaCounter);
