@@ -32,3 +32,8 @@
 #evaluation-form .formulario {
   margin: 120px;
 }
+
+.flex-container-family {
+  display: flex;
+  flex-direction: column;
+}
