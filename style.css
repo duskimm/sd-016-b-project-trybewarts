@@ -32,3 +32,15 @@ body {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.name-input-container {
+  display: flex;
+}
+
+.email-house-container {
+  display: flex;
+}
+
+.avaliacao {
+  display: flex;
+}
