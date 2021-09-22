@@ -22,6 +22,11 @@
   flex-direction: column;
 }
 
+.family-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .aside-content {
   display: flex;
   justify-content: flex-end;
@@ -35,4 +40,9 @@
 
 fieldset {
   width: 550px;
+}
+
+#label-family{
+  display: flex;
+  flex-direction: column;
 }

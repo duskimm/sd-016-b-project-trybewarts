@@ -25,14 +25,11 @@
 
   <main class="main-container">
     <form action="#" id="evaluation-form">
-      <fieldset>
-        <legend>Cadastro</legend>
+      <div id="cadastro">
         <label for="input-name">Nome:</label>
         <input type="text" name="name" id="input-name" placeholder="Nome">
-
         <label for="input-lastname">Sobrenome:</label>
         <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome">
-
         <label for="input-email">Email:</label>
         <input type="email" name="email" id="input-email" placeholder="Email">
 
@@ -42,7 +39,25 @@
           <option value="Corvinode" id="corvinode-house">Corvinode</option>
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
         </select>
-      </fieldset>
+      </div>
+
+      <div class="family-container">
+        <label for="" id="label-family">Qual sua família?</label>
+        <div class="family-option">
+          <input type="radio" name="family" value="Frontend" id="frontend">
+          <label for="frontend">Frontend</label>
+        </div>
+
+        <div class="family-option">
+          <input type="radio" name="family" value="Backend" id="backend">
+          <label for="backend">Backend</label>
+        </div>
+
+        <div class="family-option">
+          <input type="radio" name="family" value="FullStack" id="fullstack">
+          <label for="fullstack">FullStackgit l</label>
+        </div>
+      </div>
     </form>
   </main>
 
