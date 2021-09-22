@@ -8,12 +8,24 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <header class="header"></header>
-    <img
-      class="trybewarts-header-logo"
-      src="images/trybewarts-header-logo.svg"
-    />
-
+    <header class="header">
+      <img
+        class="trybewarts-header-logo"
+        src="images/trybewarts-header-logo.svg"
+      />
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <!-- Ref: https://www.w3schools.com/howto/howto_css_login_form_navbar.asp -->
+      <form method="GET" class="trybewarts-login">
+        <input type="email" placeholder="Email" name="email" class="email" />
+        <input
+          type="password"
+          placeholder="Senha"
+          name="password"
+          class="password"
+        />
+        <button class="login-button" type="text">Entrar</button>
+      </form>
+    </header>
     <script src="script.js"></script>
   </body>
 </html>
