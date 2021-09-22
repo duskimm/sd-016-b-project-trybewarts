@@ -26,6 +26,7 @@
         <input type="text" id="input-name" placeholder="Nome">
         <input type="text" id="input-lastname" placeholder="Sobrenome">
       </div>
+      <!-- requisito 9 -->
       <div class="form-inputs">
         <input type="text" id="input-email" placeholder="Email">
         <select name="" id="house">
@@ -35,20 +36,57 @@
           <option id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
       </div>
-      <div class="form-inputs form-radio">
-        <label for="" id="label-family">Qual sua família?</label>
-        <label for="input-frontend">
-          <input id="input-frontend" type="radio" name="family" value="Frontend">
-          Família Frontend
-        </label>
-        <label for="input-backend">
-          <input id="input-backend" type="radio" name="family" value="Backend">
-          Família Backend
-        </label>
-        <label for="input-fullstack">
-          <input id="input-fullstack" type="radio" name="family" value="FullStack">
-          Família FullStack
-        </label>
+      <!-- requisito 12 -->
+      <div class="form-inputs">
+        <div class="form-radio">
+          <label for="" id="label-family">Qual sua família?</label>
+          <label for="input-frontend">
+            <input id="input-frontend" type="radio" name="family" value="Frontend">
+            Família Frontend
+          </label>
+          <label for="input-backend">
+            <input id="input-backend" type="radio" name="family" value="Backend">
+            Família Backend
+          </label>
+          <label for="input-fullstack">
+            <input id="input-fullstack" type="radio" name="family" value="FullStack">
+            Família FullStack
+          </label>
+        </div>
+        <!-- requisito 13 -->
+        <div class="form-checkbox">
+          <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+          <div class="form-inputs">
+            <div class="items">
+              <label for="">
+                <input class="check-content" type="checkbox" value="HoFs">
+                HoFs
+              </label>
+              <label for="">
+                <input class="check-content" type="checkbox" value="Jest">
+                Jest
+              </label>
+              <label for="">
+                <input class="check-content" type="checkbox" value="Promises">
+                Promises
+              </label>
+            </div>
+            <div class="items">
+              <label for="">
+                <input class="check-content" type="checkbox" value="React">
+                React
+              </label>
+              <label for="">
+                <input class="check-content" type="checkbox" value="SQL">
+                SQL
+              </label>
+              <label for="">
+                <input class="check-content" type="checkbox" value="Python">
+                Python
+              </label>
+            </div>
+          </div>
+        </div>
       </div>
     </form>
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">

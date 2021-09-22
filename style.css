@@ -32,7 +32,21 @@ main {
 }
 
 .form-radio {
+  flex-direction: row;
+  width: 50%;
+}
+
+.form-checkbox {
+  display: block;
+}
+
+.items {
+  display: flex;
   flex-direction: column;
+}
+
+.form-radio label {
+  display: block;
 }
 
 #input-name {
