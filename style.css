@@ -29,3 +29,14 @@ body {
   display: flex;
   justify-content: end;
 }
+
+/* SETUP MAIN */
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
