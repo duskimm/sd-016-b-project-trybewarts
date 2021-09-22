@@ -33,10 +33,71 @@ function validateAgreement() {
 function charCount() {
   const textArea = document.querySelector('#textarea');
   const counter = document.querySelector('#counter');
-  let numberChar = parseInt(counter.innerText, 10);
-  
+  const numberChar = parseInt(counter.innerText, 10);
+
   textArea.addEventListener('input', () => {
     counter.innerText = numberChar - textArea.value.length;
+  });
+}
+
+function findFamily() {
+  const allFamilies = document.querySelectorAll('input[name="family"]');
+  let selectedFamily = '';
+  allFamilies.forEach((family) => {
+    if (family.checked) {
+      selectedFamily = family.value;
+    }
+  });
+
+  return selectedFamily;
+}
+
+function findContent() {
+  const allSubjects = document.querySelectorAll('.subject');
+  let selectedContent = '';
+  allSubjects.forEach((Content) => {
+    if (Content.checked) {
+      selectedContent += `${Content.value}, `;
+    }
+  });
+
+  return selectedContent;
+}
+
+function findAvaliation() {
+  const allAvaliation = document.querySelectorAll('input[name="rate"]');
+  let selectedAvaliation = '';
+  allAvaliation.forEach((avaliation) => {
+    if (avaliation.checked) {
+      selectedAvaliation = `${avaliation.value}`;
+    }
+  });
+
+  return selectedAvaliation;
+}
+
+function createUserInfo() {
+  const userName = document.querySelector('#input-name').value;
+  const lastName = document.querySelector('#input-lastname').value;
+  const userEmail = document.querySelector('#input-email').value;
+  const userHome = document.querySelector('#house').value;
+  const userNotes = document.querySelector('#textarea').value;
+
+  const userData = `Nome: ${userName} ${lastName}\n
+  Email: ${userEmail}\n
+  Casa: ${userHome}\n
+  Família: ${findFamily()}\n
+  Matérias: ${findContent()}\n
+  Avaliação: ${findAvaliation()}\n
+  Observações: ${userNotes}`;
+
+  document.querySelector('#evaluation-form').innerHTML = userData;
+}
+
+function listenSubmitBtn() {
+  document.querySelector('#submit-btn').addEventListener('click', (event) => {
+    event.preventDefault();
+    createUserInfo();
   });
 }
 
@@ -55,6 +116,7 @@ window.onload = () => {
     });
   });
 
+  listenSubmitBtn();
   validateUser();
   validateAgreement();
   charCount();
