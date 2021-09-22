@@ -30,6 +30,16 @@ function validateAgreement() {
   });
 }
 
+function charCount() {
+  const textArea = document.querySelector('#textarea');
+  const counter = document.querySelector('#counter');
+  let numberChar = parseInt(counter.innerText, 10);
+  
+  textArea.addEventListener('input', () => {
+    counter.innerText = numberChar - textArea.value.length;
+  });
+}
+
 window.onload = () => {
   /**
    * Adiciona animação para o placeholder do input desaparecer sempre que for focado;
@@ -47,4 +57,5 @@ window.onload = () => {
 
   validateUser();
   validateAgreement();
+  charCount();
 };
