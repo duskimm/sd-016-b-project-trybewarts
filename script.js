@@ -2,6 +2,7 @@ const email = document.querySelector('#email');
 const senha = document.querySelector('#senha');
 const botaoLogin = document.getElementById('botaoLogin');
 
+// Varifica se o e-mail e senha estão corretos
 function varificaUsuario() {
   const loginDigitado = email.value;
   const senhaDigitada = senha.value;
