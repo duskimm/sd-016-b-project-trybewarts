@@ -10,6 +10,10 @@ function validateCredentials(event) {
   }
 }
 
+function formContent () {
+  
+}
+
 const loginButton = document.querySelector('.trybewarts-login button');
 loginButton.addEventListener('click', validateCredentials);
 
