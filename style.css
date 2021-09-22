@@ -11,3 +11,12 @@
 body {
   margin: 0px;
 }
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
+
+main {
+  display: flex;
+}
