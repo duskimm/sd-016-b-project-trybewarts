@@ -1,4 +1,4 @@
-const submitButton = document.querySelector('#btn-entrar');
+const sendButton = document.querySelector('#btn-entrar');
 const email = document.querySelector('#email');
 const password = document.querySelector('#password');
 
@@ -11,4 +11,17 @@ function validateLog(event) {
   }
 }
 
-submitButton.addEventListener('click', validateLog);
+sendButton.addEventListener('click', validateLog);
+
+const checkBox = document.querySelector('#agreement');
+const submitButton = document.querySelector('#submit-btn');
+
+checkBox.addEventListener('click', () => {
+  submitButton.disable = true;
+});
+
+/*
+if (checkBox.checked === true) {
+  submitButton.disable = false;
+}
+*/
