@@ -42,13 +42,13 @@ selectHouse();
 agreement.addEventListener('click', () => {
   if (!agreement.classList.contains('selected')) {
     agreement.classList.add('selected');
+    btnSubmit.disabled = false;
   } else {
     agreement.classList.remove('selected');
+    btnSubmit.disabled = true;
   }
 });
 
 btnSubmit.addEventListener('click', (evt) => {
-  if (!agreement.classList.contains('selected')) {
-    evt.preventDefault();
-  }
+  evt.preventDefault();
 });
