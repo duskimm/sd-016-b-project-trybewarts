@@ -8,21 +8,21 @@ function login() {
 }
 
 document.getElementById('btn-login').addEventListener('click', login);
-//nao estou entendendo oque tem de errado na logica abaixo... requisito 18
+// nao estou entendendo oque tem de errado na logica abaixo... requisito 18
 const btnSubmit = document.getElementById('submit-btn');
 const agree = document.getElementById('agreement');
 btnSubmit.disabled = true;
 
 function CheckAgreement() {
-  if (agree.value === 'on') {   //se o valor do agree for off o botao estara desabilitado
+  if (agree.value === 'on') { // se o valor do agree for off o botao estara desabilitado
     btnSubmit.disabled = true;
-  } else if (agree.value === 'off') {   //se o valor do agree for on estara habilitado
+  } else if (agree.value === 'off') { // se o valor do agree for on estara habilitado
     btnSubmit.disabled = false;
   }
 }
-agree.addEventListener('Click', CheckAgreement)
+agree.addEventListener('Click', CheckAgreement);
 
-// tentei de outras formas como: 
+// tentei de outras formas como:
 /*
 function CheckAgreement() {
   if (btnSubmit.disabled === false) {
@@ -55,14 +55,14 @@ function CheckAgreement() {
 }
 btnSubmit.addEventListener('Click', CheckAgreement);  quando o enviar for clicado a função sera chamada...
  */
-// mais uma opção:  descobrir os erros do raciocinio... 
-/* 
+// mais uma opção:  descobrir os erros do raciocinio...
+/*
 function CheckAgreement() {
   if (agree.value === false) {   se o valor do agree for falso o botao estara desabilitado
     btnSubmit.disabled = true;
-  } 
+  }
 btnSubmit.disabled = false;
-} 
+}
 agree.addEventListener('Click', CheckAgreement)
-fontes: https://cursos.alura.com.br/forum/topico-habitar-desabilitar-botao-65202 
-https://stackoverflow.com/questions/46917270/javascript-disable-button-until-all-fields-are-filled */ 
+fontes: https://cursos.alura.com.br/forum/topico-habitar-desabilitar-botao-65202
+https://stackoverflow.com/questions/46917270/javascript-disable-button-until-all-fields-are-filled */
