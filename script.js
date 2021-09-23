@@ -30,7 +30,6 @@ function limiteTextArea(valor) {
     document.getElementById('textarea').value = valor.substr(0, quant);
   }
 }
-limiteTextArea();
 
 // EventListeners
 agreement.addEventListener('click', verifyAgreementSubmitBtn);
