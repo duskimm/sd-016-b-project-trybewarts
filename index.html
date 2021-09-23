@@ -23,108 +23,98 @@
     </header>
 
     <main class="main-content">
-      <form action="" id="evaluation-form" class="main-form">
-        <div class="form-line">
-          <input type="text" id="input-name" placeholder="Nome">
-          <input type="text" id="input-lastname" placeholder="Sobrenome">
-        </div>
-
-        <div class="form-line">
-          <input type="text" id="input-email" placeholder="Email">
-          <label for="house">House</label>
-          <select id="house">
-            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-            <option value="Corvinode" id="corvinode-house">Corvinode</option>
-            <option value="Pytherina" id="pytherina-house">Pytherina</option>
-          </select>
-        </div>
-
-        <div class="form-line">
-          <div class="form-line" id="form-family">
-
-            <p id="label-family">Qual sua família?</p>
-
-            <div class="radiobutton">
-              <label for="frontend">Frontend</label>
-              <input type="radio" name="family" id="frontend" value="Frontend">
+        <form action="" id="evaluation-form" class="main-form">
+          <h1 class="form-line align-center">Formulário de Avaliação</h1>
+            <div class="form-line align-center">
+              <input type="text" id="input-name" placeholder="Nome">
+              <input type="text" id="input-lastname" placeholder="Sobrenome">
             </div>
 
-            <div class="radiobutton">
-              <label for="backend">Backend</label>
-              <input type="radio" name="family" id="backend" value="Backend">
+            <div class="form-line align-center align">
+              <input type="text" id="input-email" placeholder="Email">
+              <div>
+                <label for="house" class="house">House</label>
+                <select id="house">
+                  <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                  <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                  <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                  <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select>
+              </div>
+            </div>
+            
+          <div class="form-line align-items">
+            
+            <div class="form-line" id="form-family">
+              <p id="label-family">Qual sua família?</p>
+              <div class="radiobutton">
+                <label for="frontend">Frontend</label>
+                <input type="radio" name="family" id="frontend" value="Frontend">
+              </div>
+              <div class="radiobutton">
+                <label for="backend">Backend</label>
+                <input type="radio" name="family" id="backend" value="Backend">
+              </div>
+              <div class="radiobutton">
+                <label for="fullstack">FullStack</label>
+                <input type="radio" name="family" id="fullstack" value="FullStack">
+              </div>
             </div>
 
-            <div class="radiobutton">
-              <label for="fullstack">FullStack</label>
-              <input type="radio" name="family" id="fullstack" value="FullStack">
+            <div class="form-line" id="form-content">
+              <p id="label-content">Qual conteúdo você está com mais<br> vontade de aprender?</p>
+              <div class="checkboxes">
+                <div class="checkbox">
+                  <label for="HoFs">HoFs</label>
+                  <input type="checkbox" name="HoFs" id="HoFs" value="HoFs">
+                </div>
+                <div class="checkbox">
+                  <label for="Jest">Jest</label>
+                  <input type="checkbox" name="Jest" id="Jest" value="Jest">
+                </div>
+                <div class="checkbox">
+                  <label for="Promises">Promises</label>
+                  <input type="checkbox" name="Promises" id="Promises" value="Promises">
+                </div>
+                <div class="checkbox">
+                  <label for="React">React</label>
+                  <input type="checkbox" name="React" id="React" value="React">
+                </div>
+                <div class="checkbox">
+                  <label for="SQL">SQL</label>
+                  <input type="checkbox" name="SQL" id="SQL" value="SQL">
+                </div>
+                <div class="checkbox">
+                  <label for="Python">Python</label>
+                  <input type="checkbox" name="Python" id="Python" value="Python">
+                </div>
+              </div>
             </div>
 
-          </div>
+         </div>
 
-          <div class="form-line" id="form-content">
-
-            <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
-
-            <div class="checkboxes">
-              <div class="checkbox">
-                <label for="HoFs">HoFs</label>
-                <input type="checkbox" name="HoFs" id="HoFs" value="HoFs">
-              </div>
-
-              <div class="checkbox">
-                <label for="Jest">Jest</label>
-                <input type="checkbox" name="Jest" id="Jest" value="Jest">
-              </div>
-
-              <div class="checkbox">
-                <label for="Promises">Promises</label>
-                <input type="checkbox" name="Promises" id="Promises" value="Promises">
-              </div>
-
-              <div class="checkbox">
-                <label for="React">React</label>
-                <input type="checkbox" name="React" id="React" value="React">
-              </div>
-
-              <div class="checkbox">
-                <label for="SQL">SQL</label>
-                <input type="checkbox" name="SQL" id="SQL" value="SQL">
-              </div>
-
-              <div class="checkbox">
-                <label for="Python">Python</label>
-                <input type="checkbox" name="Python" id="Python" value="Python">
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="form-line">
+        <div class="form-line align-rate">
 
           <div class="form-rate">
             <p id="label-rate">Como você avalia a Trybewarts?</p>
-            <div class="rate-buttons"> </div>
+            <div class="rate-buttons"></div>
           </div>
 
         </div>
 
-        <div class="form-line">
+        <div class="form-line comment-container">
           <div class="comment-container">
             <label for="textarea" class="textarea">Deixe seu comentário:</label>
-            <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+            <textarea name="" id="textarea" cols="30" rows="10" maxlength="500" resize></textarea>
           </div>
         </div>
 
-        <div class="form-line">
+        <div class="form-line align-text">
           <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
           <input type="checkbox" name="agreement" id="agreement" value="agreement" required>
         </div>
 
-        <div class="form-line">
+        <div class="form-line align-text btn">
           <button type="submit" id='submit-btn' disabled>Enviar</button>
         </div>
 
@@ -133,7 +123,7 @@
     </main>
 
     <footer> Direitos reservados à Trybewarts© </footer>
-
+    
     <script src="script.js"></script>
   </body>
 
