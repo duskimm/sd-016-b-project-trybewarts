@@ -8,3 +8,12 @@
     } else { alert('Email ou senha inválidos.'); }
   });
 })();
+
+function clickCheckbox() {
+  const checkboxElement = document.querySelector('#agreement');
+  checkboxElement.addEventListener('click', (e) => {
+    const buttonElement = document.querySelector('#submit-btn');
+    buttonElement.disabled = !e.target.checked;
+  });
+}
+clickCheckbox();
