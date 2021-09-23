@@ -4,7 +4,7 @@ const buttonFormLogin = document.getElementById('button-form');
 const buttonForm = document.getElementById('submit-btn');
 const checkboxAgreement = document.getElementById('agreement');
 buttonForm.disabled = true;
-const inputTextarea = document.getElementById('mensagem');
+const inputTextarea = document.getElementById('textarea');
 const getCounter = document.getElementById('counter');
 
 function formValidade() {
