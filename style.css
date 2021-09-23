@@ -5,6 +5,7 @@
 }
 
 .header {
+  padding: 20px;
   display: flex;
   background-color: rgb(50, 167, 145);
   width: 100%;
@@ -25,6 +26,13 @@
 #trybewarts-header-title {
   font-size: 70px;
   color: whitesmoke;
+}
+
+#btn-login {
+  background-color: rgb(19, 94, 19);
+  color: white;
+  width: 70px;
+  border-radius: 10px;
 }
 
 main {
