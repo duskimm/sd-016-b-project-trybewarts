@@ -61,3 +61,18 @@
   display: flex;
   flex-flow: row wrap;
 }
+
+.container-family {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-rate {
+  display: flex;
+  flex-wrap: wrap;
+}
