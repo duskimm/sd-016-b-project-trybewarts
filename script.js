@@ -1,3 +1,18 @@
+// let nameValue = document.querySelector('#input-name').value;
+// let emailValue = document.querySelector('#input-email').value;
+// let select = document.querySelector('#house');
+// let option = select.text;
+// let radio = document.getElementsByName('family');
+
+// for (let i = 0; i < radio.length; i += 1) {
+//   if (radio[i].checked) {
+//     let radioValue = radio[i].checked;
+
+//     break;
+//   }
+
+// }
+
 function validateCredentials(event) {
   event.preventDefault();
   const email = document.querySelector('#email');
@@ -8,10 +23,6 @@ function validateCredentials(event) {
   } else {
     window.alert('Email ou senha inválidos.');
   }
-}
-
-function formContent () {
-  
 }
 
 const loginButton = document.querySelector('.trybewarts-login button');
