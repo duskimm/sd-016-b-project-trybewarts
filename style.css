@@ -1,17 +1,44 @@
+/* * {
+  margin: 0;
+} */
+
+body {
+  background-color: #efefef;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: auto;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  justify-content: space-between;
+  color: #efefef;
+  justify-content: space-around;
   align-items: center;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.trybewarts-header-logo {
+  width: 70px;
 }
 
 .trybewarts-login {
   display: flex;
 }
 
+.topnav{
+  display: none;
+}
+
 main {
   display: flex;
   justify-content: space-evenly;
+}
+
+#form-title {
+  margin-bottom: auto;
+  text-align: center;
+  font-size: 30px;
 }
 
 #evaluation-form {
@@ -22,6 +49,7 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+  margin-top: 5%;
 }
 
 .div-row-container {
@@ -32,10 +60,6 @@ main {
   flex-direction: column;
 }
 
-.borda {
-  border: 1px solid red;
-}
-
 .div-column-container {
   display: flex;
   flex-direction: column;
@@ -43,5 +67,106 @@ main {
 
 textarea {
   resize: none;
-  max-width: 86%;
+  max-width: 88%;
+}
+
+#submit-btn {
+  margin-bottom: 100px;
+}
+
+footer {
+  align-items: center;
+  background-color: #3c404a;
+  color: #efefef;
+  bottom:0;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  height: 50px;
+  position:fixed;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+  body {
+    max-width: 600px;
+  }
+
+  .topnav {
+    display: flex;
+  }
+
+  #input-login, #input-password, #btn-login{
+    display: none;
+  }
+
+  main {
+    flex-direction: column-reverse;
+  }
+
+  main:nth-child(2) form:nth-child(1) section:nth-child(2) {
+    margin-left: 10px;
+    max-width: 570px;
+  }
+
+  main:nth-child(2) form:nth-child(1) section:nth-child(3) {
+    margin-left: 10px;
+    max-width: 570px;
+  }
+
+  main:nth-child(2) form:nth-child(1) section:nth-child(5) {
+    margin-left: 200px;
+  }
+
+  footer {
+    max-width: 600px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .btn-group {
+    max-width: 500px;
+    align-items: center;
+  }
+
+  #trybewarts-forms-logo {
+    height: 200px;
+  }
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
 }
