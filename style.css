@@ -30,3 +30,14 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#formulario {
+  display: flex;
+  justify-content: space-between;
+}
