@@ -15,8 +15,7 @@ function loginCheck() {
 loginCheck();
 
 // Requisito 18 - Condição para o checkbox
-
-const checkButton = document.querySelector('#agreement');
+const checkButton = document.getElementById('agreement');
 
 function sendValidation() {
   checkButton.addEventListener('click', () => {
@@ -29,3 +28,14 @@ function sendValidation() {
   });
 }
 sendValidation();
+
+// Requisito 20 - Contador textarea
+const textAreaIn = document.getElementById('textarea');
+const counter = document.getElementById('counter');
+
+function currentCount() {
+  textAreaIn.addEventListener('keyup', () => {
+    counter.innerHTML = 500 - textAreaIn.value.length;
+  });
+}
+currentCount();

@@ -61,13 +61,23 @@ main {
   display: flex;
 }
 
+.comment-container {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+}
+
+#counter {
+  float: right;
+}
+
 form , main {
   display: flex;
 }
 
-/* form {
+form {
   border: 1px solid purple;
-} */
+}
 
 #header-logo {
   width: 100px;
