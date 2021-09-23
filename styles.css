@@ -58,14 +58,14 @@ main form {
 }
 
 .right-arms {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
-.right-arms img{
-	display: flex;
-	height: 500px;
+.right-arms img {
+  display: flex;
+  height: 500px;
 }
 
 /* REQUISITO 19 OK */
