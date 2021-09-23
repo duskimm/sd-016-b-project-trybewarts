@@ -11,5 +11,3 @@ function checkEmail() {
 };
 
 loginBtn.addEventListener('click', checkEmail);
-
-
