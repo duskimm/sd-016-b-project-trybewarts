@@ -26,16 +26,44 @@
     </header>
     <main>
         <form action="#" method="GET" id="evaluation-form"> 
-            <select name="" id="house">
+            Casa <select name="" id="house">
                 <option value="Gitnória" id="gitnoria-house">Gitnória</option>
                 <option value="Reactpuff" id='reactpuff-house'>Reactpuff</option>
                 <option value="Corvinode" id='corvinode-house'>Corvinode</option>
                 <option value="Pytherina" id='pytherina-house'>Pytherina</option>
             </select>
+
+            <label for="label-content">
+                Qual conteúdo você está com mais vontade de aprender?
+                <div id='inputs-conteudo'>
+                    <input type="checkbox" id='label-content'>
+                    <span>HoFs</span>
+                    <input type="checkbox" id='label-content'>
+                    <span>Jest</span>
+                    <input type="checkbox" id='label-content'>
+                    <span>Promises</span>
+                    <input type="checkbox" id='label-content'>
+                    <span>React</span>
+                    <input type="checkbox" id='label-content'>
+                    <span>SQL</span>
+                    <input type="checkbox" id='label-content'>
+                    <span>Python</span>
+                </div>
+            </label>
+
+            <label class="textarea" for="">Deixe seu comentário:
+                <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+            </label>
+
+            <button type="submit" name="submit" value="foo" id='submit-btn'>Enviar</button>
+
         </form> 
         <img id="trybewarts-forms-logo" src="/sd-016-b-project-trybewarts/images/trybewarts.svg"><img>
 
     </main>
+
+    <footer>Direitos reservados à Trybewarts©</footer>
+
     <source src="script.js"> 
 </body>
 </html>

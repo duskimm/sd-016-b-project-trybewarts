@@ -18,8 +18,23 @@ form {
 main {
   display: flex;
   justify-content: flex-end;
+  width: auto;
+  border: 1px solid black;
 }
 
 img {
   height: 500px ;    
+}
+
+/* REQUISITO 11 */
+
+label {
+  display: flex;
+  flex-direction: column;
+} 
+
+#inputs-conteudo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
