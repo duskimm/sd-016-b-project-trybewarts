@@ -1,8 +1,7 @@
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 
-function validateLogin(event) {
-  event.preventDefault();
+function validateLogin() {
   const emailCorrect = 'tryber@teste.com';
   const passwordCorrect = '123456';
   if ((email.value === emailCorrect) && (password.value === passwordCorrect)) {
