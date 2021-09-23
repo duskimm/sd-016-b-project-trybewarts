@@ -21,6 +21,10 @@ body {
   height: 100%;
 }
 
+.trybewarts-login {
+  display: flex;
+}
+
 input , textarea , select {
   border-radius: 5px;
   border: 1px solid white;
