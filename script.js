@@ -19,3 +19,11 @@ checkbox.addEventListener('click', () => {
     submitBtn.disabled = true;
   }
 });
+
+const textarea = document.querySelector('#textarea');
+const paragraph = document.querySelector('#counter');
+textarea.addEventListener('input', () => {
+  const maxValue = 500;
+  const caracteres = maxValue - textarea.value.length;
+  paragraph.innerHTML = caracteres;
+});
