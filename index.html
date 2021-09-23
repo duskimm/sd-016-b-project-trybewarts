@@ -11,8 +11,8 @@
     <header class="header">
         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
         <h1 id="trybewarts-header-title">Trybewarts</h1>
-        <form class="trybewarts-login">
-            <input type="email" name="email" placeholder="Email">
+        <form class="trybewarts-login" class="js-form">
+            <input type="email" name="email" data-validate-field="email" placeholder="Email">
             <input type="password" name="password" placeholder="Senha">
             <button type="submit">Entrar</button>
         </form>
@@ -99,7 +99,6 @@
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
   </main>
   <footer>Direitos reservados à Trybewarts©</footer>
-    <script src="script.js" type="module"></script>
-    <script src="./node_modules/just-validate/dist/js/just-validate.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
