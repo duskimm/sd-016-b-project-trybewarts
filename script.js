@@ -8,3 +8,15 @@ loginButton.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const submitBtn = document.querySelector('#submit-btn');
+const checkbox = document.querySelector('#agreement');
+submitBtn.disabled = true
+checkbox.addEventListener('click', () => {
+  if (checkbox.checked === true) {
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.disabled = true;
+  }
+});
+
