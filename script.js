@@ -1,16 +1,18 @@
-const inputEmail = document.getElementById('input-login-email');
-const inputSenha = document.getElementById('input-login-senha');
-const button = document.getElementById('button-formulario');
+const inputemail = document.getElementById('email-input');
+const inputsenha = document.getElementById('senha-input');
+const buttonLogin = document.getElementById('btn-login');
+const btnSubmit = document.getElementById('submit-btn');
+const agreement = document.getElementById('agreement');
 
 function verificaFormulario() {
-  if (inputEmail.value === 'tryber@teste.com' && inputSenha.value === '123456') {
+  if (inputemail.value === 'tryber@teste.com' && inputsenha.value === '123456') {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
   }
 }
 
-button.addEventListener('click', verificaFormulario);
+buttonLogin.addEventListener('click', verificaFormulario);
 
 const houses = [
   'Gitnória',
@@ -36,3 +38,17 @@ function selectHouse() {
   }
 }
 selectHouse();
+
+agreement.addEventListener('click', () => {
+  if (!agreement.classList.contains('selected')) {
+    agreement.classList.add('selected');
+  } else {
+    agreement.classList.remove('selected');
+  }
+});
+
+btnSubmit.addEventListener('click', (evt) => {
+  if (!agreement.classList.contains('selected')) {
+    evt.preventDefault();
+  }
+});

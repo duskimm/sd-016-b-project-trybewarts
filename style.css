@@ -1,48 +1,180 @@
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  border: 0;
 }
 
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
-  padding: 10px;
+  align-items: center;
 }
 
 .trybewarts-header-logo {
-  height: 90px;
-  display: flex;
-}
-
-#trybewarts-header-title {
-  display: flex;
-  align-self: center;
+  width: 84px;
+  height: 84px;
+  margin-left: 40px;
 }
 
 .trybewarts-login {
   display: flex;
-  align-self: center;
+  margin-right: 40px;
 }
 
-#main-formulario {
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 665px;
+  flex-direction: column;
+  margin-top: 27px;
+  margin-left: 80px;
+}
+
+#evaluation-form img {
+  height: 500px;
+}
+
+.nome-completo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  height: 45px;
+}
+
+#input-name {
+  width: 330px;
+  margin-right: 5px;
+}
+
+#input-lastname {
+  width: 330px;
+}
+
+.radio-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.boxes-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.rate-container {
   display: flex;
 }
 
-#div-formulario {
+.rate-input {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-#evaluation-form {
+#input-email {
+  margin-bottom: 20px;
+  height: 45px;
+  width: 690px;
+}
+
+#house {
+  height: 45px;
+  margin-left: 5px;
+}
+
+.labels {
+  margin-bottom: 10px;
+}
+
+.areaTextual {
   display: flex;
-  width: 675px;
   flex-direction: column;
-  align-content: center;
+}
+
+.areaTextual textarea {
+  align-self: end;
+}
+
+.areaTextual label {
+  margin-bottom: 10px;
+}
+
+.ratediv {
+  margin-left: 20px;
+}
+
+.ratediv div {
+  margin-left: 20px;
 }
 
 #trybewarts-forms-logo {
+  display: flex;
+  align-self: center;
+  width: 500px;
   height: 500px;
+}
+
+#form-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#div-infos {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
+#agreement {
+  margin-left: 10px;
+}
+
+#submit-btn {
+  width: 80px;
+  align-self: center;
+}
+
+#btndiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#opt-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#footer-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(50, 167, 145);
+  margin-top: 62px;
+}
+
+#footer-page h5 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#email-input {
+  margin-right: 5px;
+}
+
+#senha-input {
+  margin-right: 5px;
+}
+
+.emailHouse {
+  display: flex;
 }
