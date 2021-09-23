@@ -14,7 +14,7 @@
   display: flex;
 }
 
-.trybewarts-login:nth-child(n) {
+.trybewarts-login:nth-child( n ) {
   height: 35px;
 }
 

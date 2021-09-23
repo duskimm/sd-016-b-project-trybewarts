@@ -11,7 +11,7 @@ loginButton.addEventListener('click', () => {
 
 const submitBtn = document.querySelector('#submit-btn');
 const checkbox = document.querySelector('#agreement');
-submitBtn.disabled = true
+submitBtn.disabled = true;
 checkbox.addEventListener('click', () => {
   if (checkbox.checked === true) {
     submitBtn.disabled = false;
@@ -19,4 +19,3 @@ checkbox.addEventListener('click', () => {
     submitBtn.disabled = true;
   }
 });
-
