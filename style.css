@@ -60,9 +60,87 @@ footer {
 
 .forms-logo {
   width: 30%;
+  margin-top: 90px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
   width: 100%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  margin-top: 130px;
+}
+
+.inputRadio {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputCheckbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputScore {
+  display: inline;
+}
+
+.score {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#input-name {
+  margin-right: 10px;
+}
+
+#input-email {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.subsection {
+  margin-bottom: 15px;
+}
+
+.opt {
+  margin-top: 7px;
+}
+
+#label-content {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.checkOpt {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.radOpt {
+  margin-left: 5px;
+}
+
+#agreement {
+  margin-top: 20px;
+}
+
+#submit-btn {
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: rgb(8, 148, 8);
+  color: white;
+  border: none;
+  align-self: center;
+  margin-right: 20px;
 }

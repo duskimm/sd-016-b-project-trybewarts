@@ -7,7 +7,7 @@ document.getElementById('loginButton').addEventListener('click', () => {
   if (email === trybeEmail && senha === trybeSenha) {
     alert('Olá, Tryber!');
   } else {
-    alert('Login ou senha inválidos.');
+    alert('Email ou senha inválidos.');
   }
 });
 
@@ -22,16 +22,3 @@ agree.addEventListener('click', () => {
     submitBtn.disabled = true;
   }
 });
-
-// 20
-const tArea = document.querySelector('#textarea');
-const counter = document.querySelector('#counter');
-counter.innerHTML = '500';
-
-function countLetters() {
-  const comments = tArea.value.length;
-  const maxLength = tArea.getAttribute('maxLength');
-  const currentLength = maxLength - comments;
-  counter.innerHTML = currentLength;
-}
-tArea.addEventListener('input', countLetters);
