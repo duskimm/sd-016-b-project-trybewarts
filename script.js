@@ -4,6 +4,8 @@ const buttonFormLogin = document.getElementById('button-form');
 const buttonForm = document.getElementById('submit-btn');
 const checkboxAgreement = document.getElementById('agreement');
 buttonForm.disabled = true;
+const inputTextarea = document.getElementById('mensagem');
+const getCounter = document.getElementById('counter');
 
 function formValidade() {
   const inputEmailValue = inputEmailHeader.value;
@@ -31,3 +33,15 @@ checkboxAgreement.addEventListener('change', presskey);
 https://stackoverflow.com/questions/14544104/checkbox-check-event-listener
 https://www.delftstack.com/pt/howto/javascript/javascript-disable-button/#:~:text=A%20melhor%20maneira%20de%20fazer,alternar%20seu%20estado%20on%20%2F%20off%20.
 */
+
+function counter() {
+  getCounter.innerHTML = 500;
+  let span = getCounter.innerText;
+  const limite = inputTextarea.value;
+  for (let index = 0; index < limite.length; index += 1) {
+    parseInt(span -= 1, 10);
+  }
+  getCounter.innerHTML = span;
+}
+
+inputTextarea.addEventListener('input', counter);
