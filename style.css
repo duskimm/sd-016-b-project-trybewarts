@@ -123,6 +123,9 @@ main {
   padding: 20px;
 }
 
+.trybewarts-login {
+  display: flex;
+}
 
 .content-ratio {
   display: flex;
