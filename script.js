@@ -1,6 +1,18 @@
 const btnSub = document.getElementById('btn-sub');
 const btnSub2 = document.querySelector('#submit-btn');
 const ageChckBox2 = document.getElementById('agreement');
+const textArea = document.getElementById('textarea');
+const paragraph = document.getElementById('counter');
+
+paragraph.innerText = 500;
+
+function countChar() {
+  const numChar = textArea.value.length;
+  const count = 500 - numChar;
+  paragraph.innerText = count;
+  // paragraph.innerText = `Caracteres restantes: ${count}`;
+}
+textArea.addEventListener('keyup', countChar);
 
 btnSub2.disabled = true;
 
