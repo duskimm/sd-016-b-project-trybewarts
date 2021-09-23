@@ -20,7 +20,7 @@
     <form action="" class="trybewarts-login">
       <input type="email" name="email" id="email" placeholder="Email" class="emailVal nputStyle">
       <input type="password" name="password" id="password" placeholder="Senha" class="pswVal nputStyle">
-      <button type="submit" id="btnEntrar" preventdefaut>Entrar</button>
+      <button type="submit" id="btnEntrar" preventdefault>Entrar</button>
     </form>
   </header>
 
@@ -65,19 +65,19 @@
           <div class="tecnologias">
             <h4 id="label-content">Qual conteúdo você está com mais vontade de aprender?</h4>
             <div class="tecCheck">
-            <label> <input type="checkbox" value="HoFs">HoFs</label>
-            <label> <input type="checkbox" value="Jest">Jest</label>
-            <label> <input type="checkbox" value="Promises">Promises</label>
+            <label class="tecCheck"> <input type="checkbox" value="HoFs">HoFs</label>
+            <label class="tecCheck"> <input type="checkbox" value="Jest">Jest</label>
+            <label class="tecCheck"> <input type="checkbox" value="Promises">Promises</label>
             <br>
-            <label> <input type="checkbox" value="React">React</label>
-            <label> <input type="checkbox" value="SQL">SQL</label>
-            <label> <input type="checkbox" value="Python">Python</label>
+            <label class="tecCheck"> <input type="checkbox" value="React">React</label>
+            <label class="tecCheck"> <input type="checkbox" value="SQL">SQL</label>
+            <label class="tecCheck"> <input type="checkbox" value="Python">Python</label>
             </div>
           </div>
         </section>
         <hr>
         <section class="section3">
-          <h4 it="label-rate">Como você avalia a Trybewarts?</h4> 
+          <h4 id="label-rate">Como você avalia a Trybewarts?</h4> 
           <label for="ranger"> <input type="radio" name="rate" class="rateStyle" id="um" value="1">1</label>
           <label for="ranger"> <input type="radio" name="rate" class="rateStyle" id="um" value="2">2</label>
           <label for="ranger"> <input type="radio" name="rate" class="rateStyle" id="um" value="3">3</label>
@@ -88,14 +88,30 @@
           <label for="ranger"> <input type="radio" name="rate" class="rateStyle" id="um" value="8">8</label>
           <label for="ranger"> <input type="radio" name="rate" class="rateStyle" id="um" value="9">9</label>
           <label for="ranger"> <input type="radio" name="rate" class="rateStyle" id="um" value="10">10</label>
+        </section>
+
+        <section  class="section4">
+          <label for="" class="textarea"><h4>Deixe seu comentário:</h4>
+            <textarea name="textarea" id="textarea" class="textarea" cols="80" rows="10" maxlength="500rows"></textarea>
+          </label>
 
         </section>
+
+        <section class="section5">
+          <label for="agreement" id="label-infos" name="agreement">
+            Você concorda com o uso das informações acima? <input type="checkbox" name="agreement" id="agreement"class="contractCheck">
+          </label>
+        </section>
+        <button type="submit" id="submit-btn" disabled preventdefault>Enviar</button>
       </form>
     </div>
 
     <img src="./images/trybewarts-colored.svg" alt="trybewarts-forms-logo" id="trybewarts-forms-logo">
 
   </main>
+  <footer>
+    <h3>Direitos reservados à Trybewarts©</h3>
+  </footer>
   <script src="./src/scripts.js"></script>
 </body>
 

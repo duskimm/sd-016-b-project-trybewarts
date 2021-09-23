@@ -1,15 +1,15 @@
+@font-face {
+  font-family: haryFonts;
+  src: url('./HARRYP__.TTF');
+  color: whitesmoke;
+}
+
+/* fonte disponivel em  https://www.dafont.com/pt/harry-p.font */
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
-}
-
-/* fonte disponivel em  https://www.dafont.com/pt/harry-p.font */
-@font-face {
-  font-family: haryFonts;
-  src: url(./HARRYP__.TTF);
-  color: whitesmoke;
 }
 
 body {
@@ -24,10 +24,11 @@ main {
 section {
   display: flex;
   flex-wrap: wrap;
+  padding: 0.5rem;
 }
 
 hr {
-  border: solid 0.5px rgb(190,190,190);
+  border: solid 0.5px rgb(190, 190, 190);
   box-shadow: rgba(112, 128, 144, 0.233);
   margin: 0.2rem;
 }
@@ -158,8 +159,59 @@ select {
   height: 150px;
 }
 
+.tecCheck {
+  text-align: justify;
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
 .rateStyle {
   background-color: slategray;
   padding: 2px;
   margin: 4px 0 0 10px;
+}
+
+.textarea {
+  padding: 5px;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: slategrey solid 5px;
+  outline-color: rgb( 78, 44, 131 );
+}
+
+.textarea textarea {
+  border-collapse: solid rgb( 78, 44, 131 );
+  border-radius: 5px;
+  box-shadow: 1px rgb( 78, 44, 131 );
+  outline-color: rgb( 78, 44, 131 );
+}
+
+.section5 {
+  flex-direction: row;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.agreement {
+  padding: 5px;
+}
+
+#submit-btn {
+  padding: 0.6rem;
+  margin: 5px 5px 2px 10px;
+  border-radius: 0.3rem;
+  background-color: rgb( 78, 44, 131 );
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 1;
+  background-color: rgb( 60, 64, 74 );
+  height: 6vh;
+  width: 100%;
+  text-align: center;
+  color: white;
 }
