@@ -4,7 +4,6 @@ const login = document.getElementById('email');
 const password = document.getElementById('password');
 const submitButton = document.getElementById('submit-btn');
 const agreement = document.getElementById('agreement');
-const counter = document.getElementById('textarea')
 
 // Funções
 function verifyLogin() {
@@ -21,16 +20,17 @@ function verifyAgreementSubmitBtn() {
     submitButton.disabled = true;
   }
 }
-function limite_textarea(valor) {
-  quant = 500;
-  total = valor.length;
-  if(total <= quant) {
-      resto = quant - total;
-      document.getElementById('counter').innerHTML = resto;
+function limiteTextArea(valor) {
+  const quant = 500;
+  const total = valor.length;
+  if (total <= quant) {
+    const resto = quant - total;
+    document.getElementById('counter').innerHTML = resto;
   } else {
-      document.getElementById('textarea').value = valor.substr(0,quant);
+    document.getElementById('textarea').value = valor.substr(0, quant);
   }
 }
+limiteTextArea();
 
 // EventListeners
 agreement.addEventListener('click', verifyAgreementSubmitBtn);
