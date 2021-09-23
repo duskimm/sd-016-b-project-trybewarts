@@ -20,6 +20,7 @@ function verifyAgreementSubmitBtn() {
     submitButton.disabled = true;
   }
 }
+
 function limiteTextArea(valor) {
   const quant = 500;
   const total = valor.length;
@@ -31,6 +32,7 @@ function limiteTextArea(valor) {
   }
 }
 
+limiteTextArea('');
 // EventListeners
 agreement.addEventListener('click', verifyAgreementSubmitBtn);
 loginButton.addEventListener('click', verifyLogin);
