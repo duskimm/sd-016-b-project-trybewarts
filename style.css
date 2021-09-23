@@ -36,7 +36,6 @@ main {
 .cadastro1 {
   display: flex;
   flex-flow: row wrap;
-  
 }
 
 #trybewarts-forms-logo {
@@ -74,5 +73,5 @@ main {
 }
 
 .cadastro4 {
-
+  border: 1px solid black;
 }
