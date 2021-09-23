@@ -8,15 +8,15 @@
     <title>Trybewarts</title>
 </head>
 <body>
-    <!-- requisitos 1 -->
+    <!-- requisito 1 -->
     <header class="header">
-        <!-- requisitos 4 -->
+        <!-- requisito 4 -->
         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" width="100" alt="">
 
-        <!-- requisitos 2 -->
+        <!-- requisito 2 -->
         <h1 id="trybewarts-header-title">Trybewarts</h1>
 
-        <!-- requisitos 3 -->
+        <!-- requisito 3 -->
         <form action="" method="GET" class="trybewarts-login">
             <input id="email" name="email" type="text" placeholder="Email">
             <input id="senha" name="password" type="password" placeholder="Senha">
@@ -27,19 +27,67 @@
     <!-- requisito 5 -->
     <main>
       <form id="evaluation-form">
-        <!-- faça o requisitos 8 aqui -->
-        <!-- requisito 9 -->
-        <label name="select" for="cars">Casa:
-          <select name="select" id="house">
-            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-            <option value="Corvinode" id="corvinode-house">Corvinode</option>
-            <option value="Pytherina" id="pytherina-house">Pytherina</option>
-          </select>
-      </label>
+        <div id="primeirParte">
+
+          <!-- faça o requisitos 8 aqui -->
+          <label for="input-name" class="formulario">Nome</label>
+          <input type="text" id="input-name" placeholder="Nome">
+          
+          <label for="input-lastname" class="formulario" >Sobrenome</label>
+          <input type="text" id="input-lastname" placeholder="Sobrenome">
+
+          <label for="input-email" class="formulario">Email</label>
+          <input type="text" id="input-email" placeholder="Email">
+          <!-- não esquece do: class="formulario" -->
+
+          <!-- requisito 9 -->
+          <label class="formulario" name="select">Casa:
+            <select name="select" id="house">
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+          </label>
+        </div>
+
+        <hr> <!-- usei hr para separa as partes igual na imagem de exemplo -->
+
+        <div id="segundaParte">
+
+          <!-- requisito 13 -->
+          <div id="exercicio13">
+              <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+              <div>
+                <input type="checkbox" value="HoFs">
+                <label for="coding">HoFs</label>
+              </div>
+              <div>
+                <input type="checkbox" value="Jest">
+                <label for="coding">Jest</label>
+              </div>
+              <div>
+                <input type="checkbox" value="Promises">
+                <label for="coding">Promises</label>
+              </div>
+              <div>
+                <input type="checkbox" value="React">
+                <label for="coding">React</label>
+              </div>
+              <div>
+                <input type="checkbox" value="SQL">
+                <label for="coding">SQL</label>
+              </div>
+              <div>
+                <input type="checkbox" value="Python">
+                <label for="coding">Python</label>
+              </div>
+            </div>
+        </div>
+
       </form>
 
-    <!-- requisitos 7 -->
+    <!-- requisito 7 -->
     <img src="images/trybewarts-colored.svg" alt="Logo da escola" id="trybewarts-forms-logo">
     </main>
     <script src="script.js"></script>
