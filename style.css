@@ -29,7 +29,11 @@
   font-size: 30px;
 }
 
-main , #evaluation-form , #complete-name , #data , #families {
+main , #evaluation-form , #complete-name , #data {
+  display: flex;
+}
+
+#families , #learn , #evaluation , #label-rate {
   display: flex;
 }
 
@@ -42,6 +46,10 @@ main , #evaluation-form , #complete-name , #data , #families {
   height: 500px;
 }
 
-#families {
+#families , #learn {
   flex-direction: column;
+}
+
+#evaluation input {
+  margin: 0 10px;
 }
